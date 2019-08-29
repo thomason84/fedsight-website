@@ -4,8 +4,8 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import About from '/views/About.vue'
-import Home from '/views/Home.vue'
+import About from './views/About.vue'
+import Home from './views/Home.vue'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
