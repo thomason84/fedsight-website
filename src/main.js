@@ -20,6 +20,5 @@ const router = new VueRouter({ mode: 'history', routes: routes });
 
 new Vue({
   render: h => h(App),
-  router,
-  render: h => h(App)
+  router
 }).$mount('#app')
