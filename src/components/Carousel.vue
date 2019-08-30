@@ -1,0 +1,116 @@
+<template>
+  <div class='container m-auto relative'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
+        <div class='col-4 fedsightGreenBackground whiteText carouselHeader'>Develop</div>
+        <div class='col-4 fedsightYellowBackground carouselHeader'>Manage</div>
+      </div>
+    </div>
+    <div class='container-fluid triangleSection'>
+      <div class='row'>
+        <div v-if ='slide == 0' class='col-4 d-flex justify-content-center'>
+          <div class='triangle-down-blue'></div>
+        </div>
+        <div v-else-if ='slide == 1' class='col-4 d-flex justify-content-center m-auto'>
+          <div class='triangle-down-green'></div>
+        </div>
+        <div v-else-if ='slide == 2' class='col-4 d-flex justify-content-center ml-auto'>
+          <div class='triangle-down-yellow'></div>
+        </div>
+      </div>
+    </div>
+    
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="5000"
+      indicators
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <!-- Slide 1 -->
+      <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        img-src="https://picsum.photos/1024/480/?image=52"
+      ></b-carousel-slide>
+
+      <!-- Slide 2 -->
+      <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        img-src="https://picsum.photos/1024/480/?image=54"
+      ></b-carousel-slide>
+
+      <!-- Slide 3 -->
+      <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        img-src="https://picsum.photos/1024/480/?image=58"
+      ></b-carousel-slide>
+    </b-carousel>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'Carousel',
+    data() {
+      return {
+        slide: 0,
+        show: true,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
+  }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.carouselHeader{
+  padding: 2rem 0rem;
+}
+ .triangle-down-blue {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #132631;
+}
+.triangle-down-green {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #579C5F;
+}
+.triangle-down-yellow {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #F7D72A;
+}
+.relative{
+  position: relative;
+}
+.triangleSection{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+</style>
