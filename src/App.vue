@@ -19,7 +19,7 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <div class='ml-auto nav-links'>
-          <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link> |
+          <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link>
           <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
         </div>
       </b-navbar-nav>
@@ -40,12 +40,16 @@
 }
 .nav-links > a{
   color: #fff;
+  text-decoration: none;
+  padding: 1rem;
 }
 .nav-links > a:hover{
   color: #F7D72A;
+  text-decoration: none;
 }
 a.router-link-exact-active {
   color: #F7D72A;
+  text-decoration: none;
 }
 .logo{
     width: 25rem;
