@@ -18,7 +18,7 @@
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
-        <div class='ml-auto nav-links'>
+        <div class='d-flex ml-auto nav-links'>
           <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link>
           <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
         </div>
@@ -41,6 +41,7 @@
 .nav-links > a{
   color: #fff;
   text-decoration: none;
+  display: inline-block;
   padding: 1rem;
 }
 .nav-links > a:hover{
