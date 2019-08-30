@@ -1,5 +1,5 @@
 <template>
-  <div class='container m-auto relative'>
+  <div class='container m-auto'>
     <div class='container-fluid'>
       <div class='row'>
         <div class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
@@ -7,8 +7,8 @@
         <div class='col-4 fedsightYellowBackground carouselHeader'>Manage</div>
       </div>
     </div>
-    <div class='container-fluid triangleSection'>
-      <div class='row'>
+    <div class='container-fluid relative'>
+      <div class='row triangleSection'>
         <div v-if ='slide == 0' class='col-4 d-flex justify-content-center'>
           <div class='triangle-down-blue'></div>
         </div>
@@ -110,7 +110,6 @@
 .triangleSection{
   position: absolute;
   z-index: 1;
-  left: 0;
-  right: 0;
+  width: 100%;
 }
 </style>
