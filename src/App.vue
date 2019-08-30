@@ -19,8 +19,8 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <div class='d-flex ml-auto nav-links'>
-          <router-link to="/" class='col-md-3 col-xs-3'>Home</router-link>
-          <router-link to="/about" class='col-md-3 col-xs-3'>About</router-link>
+          <router-link to="/" class='col-xs-3'>Home</router-link>
+          <router-link to="/about" class='col-xs-3'>About</router-link>
         </div>
       </b-navbar-nav>
     </b-collapse>
