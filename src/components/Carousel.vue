@@ -42,14 +42,14 @@
 
       <!-- Slide 2 -->
       <b-carousel-slide
-        caption="First slide"
+        caption="Second slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
         img-src="https://picsum.photos/1024/480/?image=54"
       ></b-carousel-slide>
 
       <!-- Slide 3 -->
       <b-carousel-slide
-        caption="First slide"
+        caption="Third slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
         img-src="https://picsum.photos/1024/480/?image=58"
       ></b-carousel-slide>
