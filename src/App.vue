@@ -1,12 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav" class='container-fluid fedsightBlueBackground'>
+    <!-- <div id="nav" class='container-fluid fedsightBlueBackground'>
       <img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'>
-      <div style='margin-left: auto;'>
+      <div class='' style='margin-left: auto;'>
         <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link> |
         <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
       </div>
-    </div>
+    </div> -->
+
+    <div>
+  <b-navbar toggleable="lg"  class='fedsightBlueBackground'>
+    <b-navbar-brand href="#"><img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'></b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <div class='ml-auto nav-links'>
+          <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link> |
+          <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
+        </div>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
     <router-view/>
   </div>
 </template>
@@ -19,28 +38,25 @@
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0rem;
-  opacity: 0.8;
-}
-
-#nav a {
-  font-weight: bold;
+.nav-links > a{
   color: #fff;
 }
-
-#nav a.router-link-exact-active {
+.nav-links > a:hover{
   color: #F7D72A;
 }
-
+a.router-link-exact-active {
+  color: #F7D72A;
+}
 .logo{
     width: 25rem;
 }
-.st0 {
-    fill: #fff;
+button.navbar-toggler {
+  background-color: #fff;
+  border: 1px solid #transparent;
+}
+button.navbar-toggler:active,
+button.navbar-toggler:focus,
+button.navbar-toggler:focus-within {
+  border: 1px solid transparent;
 }
 </style>

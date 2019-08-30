@@ -18,22 +18,23 @@ a:active{
   margin-top: 8rem;
 }
 .fedsightBlue{
-  color: #132631;
+  color: #132631 !important;
 }
 .fedsightGreen{
-  color: #579C5F;
+  color: #579C5F !important;
 }
 .fedsightYellow{
-  color: #F7D72A;
+  color: #F7D72A !important;
 }
-.fedsightBlueBackground{
-  background-color: #132631;
+.fedsightBlueBackground,
+.bg-info{
+  background-color: #132631 !important;
 }
 .fedsightGreenBackground{
-  background-color: #579C5F;
+  background-color: #579C5F !important;
 }
 .fedsightYellowBackground{
-  background-color: #F7D72A;
+  background-color: #F7D72A !important;
 }
 h1, h2, h3 ,h4 {
   font-family: 'comfortaaregular', sans-serif;
