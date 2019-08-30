@@ -1,0 +1,22 @@
+html{
+    font-size: 62.5%;
+  }
+  html body{
+    font-size: 1.6rem;
+    color: #333;
+    margin: 0rem;
+  }
+  a,
+  a:hover,
+  a:link,
+  a:visited,
+  a:active{
+    text-decoration: none;
+  }
+  .spacer{
+    margin-top: 8rem;
+  }
+  @font-face {
+    font-family: "Comfortaa";
+    src: url("assets/fonts/comfortaa/Comfortaa-Regular.ttf") format("ttf");
+  }

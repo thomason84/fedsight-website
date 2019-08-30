@@ -1,0 +1,40 @@
+html{
+  font-size: 62.5%;
+}
+html body{
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0rem;
+}
+a,
+a:hover,
+a:link,
+a:visited,
+a:active{
+  text-decoration: none;
+}
+.spacer{
+  margin-top: 8rem;
+}
+.fedsightBlue{
+  color: #132631;
+}
+.fedsightGreen{
+  color: #579C5F;
+}
+.fedsightYellow{
+  color: #F7D72A;
+}
+.fedsightBlueBackground{
+  background-color: #132631;
+}
+.fedsightGreenBackground{
+  background-color: #579C5F;
+}
+.fedsightYellowBackground{
+  background-color: #F7D72A;
+}
+h1, h2, h3 ,h4 {
+  font-family: 'comfortaaregular', sans-serif;
+}
