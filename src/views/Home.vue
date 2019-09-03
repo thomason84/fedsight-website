@@ -229,7 +229,9 @@ $(document).ready( function(){
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+  }
+  .card.flipped{
+    background: #fff !important;
   }
   .inner{
     margin:0px !important;
