@@ -188,12 +188,12 @@ $(document).ready( function(){
       -webkit-transition: 0.5s;
       transform-style: preserve-3d;
       transition: 0.5s;
-      /* background-color: #fff; */
+      background-color: #fff;
     
   }
   .flip .card .face {
-    -webkit-backface-visibility: hidden ;
-      backface-visibility: hidden ;
+    /* -webkit-backface-visibility: hidden ;
+      backface-visibility: hidden ; */
     z-index: 2;
   }
   .flip .card .front {
