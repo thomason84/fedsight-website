@@ -51,7 +51,7 @@
     right: 0rem;
     z-index: 99999;
     background-color: #132631;
-    background-color: rgba(19,38,49, 0.7);
+    background-color: rgba(19,38,49, 0.9);
 }
 .nav-links > a{
   color: #fff;
