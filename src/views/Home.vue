@@ -119,14 +119,13 @@ export default {
   components: {
     Carousel,
     Footer
-  }
-}
-
-$(document).ready( function(){
-  $('.flip').hover(function(){
+  },
+  mounted() {
+        $('.flip').hover(function(){
         $(this).find('.card').toggleClass('flipped');
-  })
-})
+        })
+      }
+}
 
 
 </script>
