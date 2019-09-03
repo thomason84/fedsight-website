@@ -7,9 +7,9 @@
         <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
       </div>
     </div> -->
-
+    <!--  Navbar  -->
     <div id='navbar'>
-      <b-navbar toggleable="lg"  class='fedsightBlueBackground'>
+      <b-navbar toggleable="lg"  class=''>
         <b-navbar-brand href="#"><img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -20,15 +20,21 @@
           <b-navbar-nav class="ml-auto">
             <div class='d-flex ml-auto nav-links'>
               <router-link to="/" class='col-xs-3'>Home</router-link>
-              <router-link to="/about" class='col-xs-3'>About</router-link>
+              <router-link to="/whatWeDo" class='col-xs-3'>What We Do</router-link>
+              <router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link>
+              <router-link to="/about" class='col-xs-3'>About Us</router-link>
+              <router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link>
             </div>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
     </div>
-    <router-view/>
+
+    <router-view />
+
   </div>
 </template>
+
 
 <style>
 #app {
@@ -44,6 +50,8 @@
     left: 0rem;
     right: 0rem;
     z-index: 99999;
+    background-color: #132631;
+    background-color: rgba(19,38,49, 0.7);
 }
 .nav-links > a{
   color: #fff;

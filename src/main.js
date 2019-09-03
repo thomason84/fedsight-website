@@ -8,6 +8,7 @@ window.JQuery = require('jquery')
 import BootstrapVue from 'bootstrap-vue'
 
 
+
 Vue.use(BootstrapVue)
 
 import 'bootstrap/dist/css/bootstrap.css'

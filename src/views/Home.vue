@@ -94,7 +94,7 @@
       </div>
     </section>
     
-
+    <Footer />
   </div>
 </template>
 
@@ -103,11 +103,13 @@ import JQuery from 'jquery'
 let $ = JQuery
 // @ is an alias to /src
 import Carousel from '@/components/Carousel.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'home',
   components: {
-    Carousel
+    Carousel,
+    Footer
   }
 }
 
