@@ -123,7 +123,10 @@ export default {
   mounted() {
         $('.flip').hover(function(){
         $(this).find('.card').toggleClass('flipped');
-        })
+        });
+        $('.flip').touch(function(){
+        $(this).find('.card').toggleClass('flipped');
+        });
       }
 }
 
