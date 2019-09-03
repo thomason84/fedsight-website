@@ -192,8 +192,8 @@ $(document).ready( function(){
     
   }
   .flip .card .face {
-    /* -webkit-backface-visibility: hidden ;
-      backface-visibility: hidden ; */
+    -webkit-backface-visibility: hidden ;
+      backface-visibility: hidden ;
     z-index: 2;
   }
   .flip .card .front {
@@ -224,10 +224,12 @@ $(document).ready( function(){
     -webkit-transform: rotatey(-180deg);
             transform: rotatey(-180deg);
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #fff;
   }
   .inner{
     margin:0px !important;
