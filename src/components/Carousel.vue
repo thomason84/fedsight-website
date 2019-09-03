@@ -28,7 +28,7 @@
       indicators
       background="#ababab"
       img-width="1024"
-      img-height="480"
+      img-height="350"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
@@ -85,6 +85,13 @@
 <style scoped>
 .carouselHeader{
   padding: 2rem 0rem;
+}
+.carousel-item{
+    height: 100%;
+    max-height: 35rem;
+}
+.carousel-item > img{
+    height: 100%;
 }
  .triangle-down-blue {
   width: 0;

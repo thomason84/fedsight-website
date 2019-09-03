@@ -181,7 +181,6 @@ $(document).ready( function(){
   }
   .flip .card {
       width: 100%;
-      /* min-width: 270px; */
       height: 40rem;
       max-width: 38rem;
       margin: auto;
@@ -189,7 +188,7 @@ $(document).ready( function(){
       -webkit-transition: 0.5s;
       transform-style: preserve-3d;
       transition: 0.5s;
-      background-color: #fff;
+      /* background-color: #fff; */
     
   }
   .flip .card .face {
@@ -200,7 +199,6 @@ $(document).ready( function(){
   .flip .card .front {
     position: absolute;
     width: 100%;
-    /* min-width: 270px; */
     z-index: 1;
     top: 0;
     left: 0;
@@ -217,7 +215,6 @@ $(document).ready( function(){
   .flip .card .img {
     position: relaitve;
     width: 100%;
-    /* min-width: 270px; */
     height: 100%;
     z-index: 1;
     border: 2px solid #000;
@@ -235,7 +232,6 @@ $(document).ready( function(){
   .inner{
     margin:0px !important;
     width: 100%;
-    /* min-width: 270px; */
   }
   .cardImage{
     width: 100%;
