@@ -231,7 +231,10 @@ $(document).ready( function(){
     bottom: 0;
   }
   .card.flipped{
-    background: #fff !important;
+    background: transparent !important;
+  }
+  .face.back{
+    background-color: #fff;
   }
   .inner{
     margin:0px !important;
