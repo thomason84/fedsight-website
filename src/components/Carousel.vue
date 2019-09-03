@@ -1,5 +1,5 @@
 <template>
-  <div class='container m-auto'>
+  <div class='container'>
     <div class='container-fluid'>
       <div class='row'>
         <div class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
@@ -37,21 +37,22 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="@/assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg"
       ></b-carousel-slide>
 
       <!-- Slide 2 -->
       <b-carousel-slide
         caption="Second slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=54"
-      ></b-carousel-slide>
+        img-src="@/assets/bigstock--202433170.jpg"
+      >
+      </b-carousel-slide>
 
       <!-- Slide 3 -->
       <b-carousel-slide
         caption="Third slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=58"
+        img-src="@/assets/bigstock-Smiling-business-team-working--209395762.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
@@ -70,9 +71,11 @@
     methods: {
       onSlideStart(slide) {
         this.sliding = true
+        console.log(slide)
       },
       onSlideEnd(slide) {
         this.sliding = false
+        console.log(slide)
       }
     }
   }

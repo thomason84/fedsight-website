@@ -8,7 +8,7 @@
       </div>
     </div> -->
 
-    <div>
+    <div id='navbar'>
       <b-navbar toggleable="lg"  class='fedsightBlueBackground'>
         <b-navbar-brand href="#"><img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'></b-navbar-brand>
 
@@ -37,6 +37,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#navbar{
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    z-index: 99999;
 }
 .nav-links > a{
   color: #fff;
