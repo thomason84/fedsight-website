@@ -4,7 +4,7 @@
   <div id='footer' class='container-fluid '>
     <div class='row' style='padding: 2rem 1rem;'>
         <div class='col-md-9 d-flex align-items-start'>
-            <div class='col-md-3'>
+            <div class='col-xs-6 col-md-3'>
                 <ul class='footerList'>
                     <h3 class='fedsightGreen'>Contact Us</h3>
                     <li>
@@ -16,7 +16,7 @@
                     <li><strong>Email:</strong> </li>
                 </ul>
             </div>
-            <div class='col-md-3'>
+            <div class='col-xs-6 col-md-3'>
                 <ul class='footerList'>
                     <h3 class='fedsightGreen'>Quick Links</h3>
                     <li><router-link to="/" class='col-xs-3'>Home</router-link></li>
@@ -24,32 +24,19 @@
                     <li><router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link></li>
                     <li><router-link to="/about" class='col-xs-3'>About Us</router-link></li>
                     <li><router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link></li>
-                    
-                    
-                    
-                    
-                    
                 </ul>
             </div>
-            <div class='col-md-3'>
+            <div class='col-xs-6 col-md-3'>
                 <ul class='footerList'>
-                    <h3 class='fedsightGreen'></h3>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class='col-md-3'>
-                <ul class='footerList'>
-                    <h3 class='fedsightGreen'></h3>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <h3 class='fedsightGreen'>Something Else</h3>
+                    <li>Interesting Stuff</li>
+                    <li>Cool Link</li>
+                    <li>Brag about something</li>
                 </ul>
             </div>
         </div>
         
-        <div class='col-md-3'>
+        <div class='col-xs-12 col-md-3'>
             <img class='certImg' src="@/assets/hubzone5-3-1080x675.jpg" alt="hubzone certification logo">
         </div>
     </div>

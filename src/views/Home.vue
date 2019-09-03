@@ -43,13 +43,16 @@
               <div class="card"> 
                 <div class="face front"> 
                   <div class="inner card1Inner">   
-                    <div class='cardTextArea'>This is the text area</div>
+                    <div class='cardTextArea'>
+                      <h3 class='fedsightGreen'>Contract Vehicle Overview</h3>
+                      <p>Tell me something about this</p>
+                    </div>
                   </div>
                 </div> 
                 <div class="face back"> 
                   <div class="inner text-center"> 
                     <h3>Improved efficiency through automation</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
+                    <button type="button" class="btn btn-primary">Learn More</button>
                   </div>
                 </div>
               </div>	 
@@ -61,13 +64,16 @@
               <div class="card"> 
                 <div class="face front"> 
                   <div class="inner card2Inner">   
-                    <div class='cardTextArea'>This is the text area</div>
+                    <div class='cardTextArea'>
+                      <h3 class='fedsightGreen'>Capabilities Overview</h3>
+                      <p>Tell me something about this</p>
+                    </div>
                   </div>
                 </div> 
                 <div class="face back"> 
                   <div class="inner text-center"> 
                     <h3>Improved efficiency through automation</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
+                    <button type="button" class="btn btn-primary">Learn More</button>
                   </div>
                 </div>
               </div>	 
@@ -79,13 +85,16 @@
               <div class="card"> 
                 <div class="face front"> 
                   <div class="inner card3Inner">   
-                    <div class='cardTextArea'>This is the text area</div>
+                    <div class='cardTextArea'>
+                      <h3 class='fedsightGreen'>Driving Excellent Performance</h3>
+                      <p>Tell me something about this</p>
+                    </div>
                   </div>
                 </div> 
                 <div class="face back"> 
                   <div class="inner text-center"> 
                     <h3>Improved efficiency through automation</h3>
-                    <button type="button" class="btn btn-default">Know More</button>
+                    <button type="button" class="btn btn-primary">Learn More</button>
                   </div>
                 </div>
               </div>	 
@@ -278,6 +287,7 @@ $(document).ready( function(){
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 0.5rem;
   }
   /****************  Media Queries *****************/
   @media only screen and (max-width: 60rem) {
