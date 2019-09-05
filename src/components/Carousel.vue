@@ -2,9 +2,9 @@
   <div class='container'>
     <div class='container-fluid'>
       <div class='row'>
-        <div class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
-        <div class='col-4 fedsightGreenBackground whiteText carouselHeader'>Develop</div>
-        <div class='col-4 fedsightYellowBackground carouselHeader'>Manage</div>
+        <div @click='slide = 0' class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
+        <div @click='slide = 1' class='col-4 fedsightGreenBackground whiteText carouselHeader'>Develop</div>
+        <div @click='slide = 2' class='col-4 fedsightYellowBackground carouselHeader'>Manage</div>
       </div>
     </div>
     <div class='container-fluid relative'>
@@ -35,23 +35,54 @@
     >
       <!-- Slide 1 -->
       <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        caption=""
+        text-tag='div'
+        text-html="
+        <ul class='slideList' style='text-align: left; list-style-type: disc;font-size: 2rem'>
+          <li>strategic planning</li>
+          <li>forecasting</li>
+          <li>early-stage product development planning</li>
+        </ul>
+        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
+        "
         img-src="@/assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg"
       ></b-carousel-slide>
 
       <!-- Slide 2 -->
       <b-carousel-slide
-        caption="Second slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        caption=""
+        text-tag='div'
+        text-html="
+        <ul class='slideList' style='text-align: left; list-style-type: disc;font-size: 2rem'>
+          <li>Business Process Reengineering</li>
+          <li>Computer Systems Design</li>
+          <li>Business Process Automation</li>
+          <li>Work Force Development</li>
+          <li>SharePoint Development</li>
+        </ul>
+        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
+        "
         img-src="@/assets/bigstock--202433170.jpg"
       >
       </b-carousel-slide>
 
       <!-- Slide 3 -->
       <b-carousel-slide
-        caption="Third slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        caption=""
+        text-tag='div'
+        text-html="
+        <ul class='slideList' style='text-align: left; list-style-type: disc;font-size: 2rem'>
+          <li>Digital Strategy</li>
+          <li>Performance Assessments</li>
+          <li>Cost Analyses/Optimization</li>
+          <li>Data Visualization</li>
+          <li>Project Management</li>
+          <li>Performance Assessments</li>
+          <li>Cost Analyses/Optimization</li>
+          <li>Data Visualization</li>
+        </ul>
+        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
+        "
         img-src="@/assets/bigstock-Smiling-business-team-working--209395762.jpg"
       ></b-carousel-slide>
     </b-carousel>
@@ -85,6 +116,7 @@
 <style scoped>
 .carouselHeader{
   padding: 2rem 0rem;
+  cursor: pointer;
 }
 .carousel-item{
     height: 100%;
@@ -119,7 +151,8 @@
 }
 .triangleSection{
   position: absolute;
-  z-index: 1;
+  z-index: 11;
   width: 100%;
 }
+
 </style>

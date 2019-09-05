@@ -1,13 +1,6 @@
 <template>
   <div id="app">
-    <!-- <div id="nav" class='container-fluid fedsightBlueBackground'>
-      <img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'>
-      <div class='' style='margin-left: auto;'>
-        <router-link to="/" class='col-md-2 col-xs-3'>Home</router-link> |
-        <router-link to="/about" class='col-md-2 col-xs-3'>About</router-link>
-      </div>
-    </div> -->
-    <!--  Navbar  -->
+    <font-awesome-icon icon="user-secret" />
     <div id='navbar'>
       <b-navbar toggleable="lg"  class=''>
         <b-navbar-brand href="#"><img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'></b-navbar-brand>
@@ -20,7 +13,7 @@
           <b-navbar-nav class="ml-auto">
             <div class='d-flex ml-auto nav-links'>
               <router-link to="/" class='col-xs-3'>Home</router-link>
-              <router-link to="/whatWeDo" class='col-xs-3'>What We Do</router-link>
+              <router-link to="/whatWeDo" class='col-xs-3'>Services</router-link>
               <router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link>
               <router-link to="/about" class='col-xs-3'>About Us</router-link>
               <router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link>

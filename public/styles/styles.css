@@ -48,3 +48,19 @@ h1, h2, h3 ,h4 {
   padding-right: 0rem !important;
   padding-left: 0rem !important;
 }
+.carousel-caption {
+  right: 0rem !important;
+  bottom: 0rem !important;
+  left: 0rem !important;
+  top: 0rem !important;
+  padding-top: 2.5rem !important;
+  background-color: rgba(0,0,0,0.1);
+}
+.flipCardButton{
+  width: 100%;
+  max-width: 20rem;
+  padding: 1.5rem;
+  font-size: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
