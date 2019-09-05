@@ -16,7 +16,7 @@
       <div class='row' style='height: 100%;'>
         <div class='container d-flex align-content-center justify-content-center flex-wrap'>
           <h2 class='fedsightGreen'>We Assess Problems and Tailor Solutions for Federal Agencies</h2>
-          <p class='cardText'>As an insight based consulting firm, we are acutely aware of the admission and programmatic nuances of government agencies.  We can aid you regardless of where your organization is in the development process.”
+          <p class='cardText'>As an insight based consulting firm, we are acutely aware of the admission and programmatic nuances of government agencies.  We can aid you regardless of where your organization is in the development process.
           </p>
         </div>
       </div>
