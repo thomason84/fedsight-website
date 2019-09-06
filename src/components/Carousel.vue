@@ -67,7 +67,7 @@
       </b-carousel-slide>
 
       <!-- Slide 3 -->
-      <b-carousel-slide
+      <b-carousel-slide class='slide3'
         caption=""
         text-tag='div'
         text-html="
