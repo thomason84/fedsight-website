@@ -5,6 +5,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+import VueResource from 'vue-resource'
+
+Vue.use(VueResource);
+
+
 
 library.add(faDownload)
 

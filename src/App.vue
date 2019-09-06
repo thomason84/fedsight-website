@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <font-awesome-icon icon="user-secret" />
     <div id='navbar'>
       <b-navbar toggleable="lg"  class=''>
         <b-navbar-brand href="#"><img alt='Fedsight Logo' src='./assets/fedsight_consult_logo-white.svg' class='logo'></b-navbar-brand>

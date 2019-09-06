@@ -74,13 +74,12 @@
                   <div class="inner text-center"> 
                     <h3 class='cardheader fedsightBlue'>Download a PDF copy of our capabilities summary</h3>
                     <p class='cardText'>Our management consulting and data analytics solutions simplify processes and drive organizational efficiency.</p>
-                    <button class="btn btn-primary cardButtons"><font-awesome-icon :icon="['fas', 'download']" /> Download</button>
+                    <button @click="downloadFile" class="btn btn-primary cardButtons"><font-awesome-icon :icon="['fas', 'download']" /> Download</button>
                   </div>
                 </div>
               </div>	 
             </div>
           </div>
-
           <div class="col-md-4 d-inline-block cardContainer">
             <div class="flip">
               <div class="card"> 
@@ -115,20 +114,46 @@ let $ = JQuery
 import Carousel from '@/components/Carousel.vue'
 import Footer from '@/components/Footer.vue'
 
+
 export default {
   name: 'home',
   components: {
     Carousel,
     Footer
   },
+  data(){
+    return{
+      capabilities: '/files/Fedsight_Capabilities_Statement.pdf'
+    }
+  },
+  methods: {
+    
+    forceFileDownload(response){
+      const url = window.URL.createObjectURL(new Blob([response.data], { type: 'application/pdf' }))
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', 'Fedsight_Capabilities_Statement.pdf') //or any other extension
+      document.body.appendChild(link)
+      link.click()
+    },
+    
+    downloadFile() {
+      this.$http({
+        method: 'get',
+        url: this.capabilities,
+        responseType: 'arraybuffer'
+      })
+      .then(response => {
+        this.forceFileDownload(response)  
+      })
+      .catch(() => console.log('error occured'))
+    }
+  },
   mounted() {
-        $('.flip').hover(function(){
-        $(this).find('.card').toggleClass('flipped');
-        });
-        $('.flip').touch(function(){
-        $(this).find('.card').toggleClass('flipped');
-        });
-      }
+    $('.flip').hover(function(){
+    $(this).find('.card').toggleClass('flipped');
+    })
+  }
 }
 
 
