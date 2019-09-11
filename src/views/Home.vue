@@ -12,7 +12,7 @@
       </div>
     </section>
 
-    <section class='mainParagraph'>
+    <section class='mainParagraph container'>
       <div class='row' style='height: 100%;'>
         <div class='container d-flex align-content-center justify-content-center flex-wrap'>
           <h2 class='fedsightGreen'>We Assess Problems and Tailor Solutions for Federal Agencies</h2>
@@ -36,7 +36,7 @@
       </div>
     </section>
       
-    <section class="container-fluid d-flex flex-wrap" style='padding: 0rem;'>
+    <section class="container d-flex flex-wrap">
       <div class="col-12 d-flex flex-wrap flipSection">
           <div class="col-md-4 d-inline-block cardContainer">
             <div class="flip">
