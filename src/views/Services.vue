@@ -63,10 +63,21 @@
         </div>
 
         
-        
+        <Footer />
         
     </div>
 </template>
+
+<script>
+import Footer from '@/components/Footer.vue'
+
+  export default {
+    name: 'Services',
+    components: {
+        Footer
+    }
+  }
+</script>
 
 <style scoped>
 .servicesHero{

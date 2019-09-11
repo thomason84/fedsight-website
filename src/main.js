@@ -10,6 +10,8 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faChartPie } from '@fortawesome/free-solid-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faCopyright } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 import VueResource from 'vue-resource'
 
@@ -22,6 +24,8 @@ library.add(faUsers)
 library.add(faChartPie)
 library.add(faCloud)
 library.add(faCheck)
+library.add(faCopyright)
+library.add(faLinkedinIn)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
