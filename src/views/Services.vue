@@ -14,27 +14,51 @@
 
         <div class='container-fluid'>
             <div class='row'>
-                <div class='col-md-6 d-flex flex-column'>
+                <div class='col-md-7 col-lg-6 d-flex flex-column'>
                     <div class='d-inline-block stackedDiv fedsightBlueBackground'>
                         <div class='stackedBackground'><font-awesome-icon :icon="['fas', 'users']" /></div>
                         <div class='stackedForeground'>
-                            <h3><font-awesome-icon :icon="['fas', 'users']" /></h3>
+                            <h3><font-awesome-icon :icon="['fas', 'users']" /> Management Consulting</h3>
+                            <p></p>
+                            <ul class='d-flex'>
+                                <li class='listItem order1'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Strategic Planning</li>
+                                <li class='listItem order3'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Organizational Transformations</li>
+                                <li class='listItem order5'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Change Management</li>
+                                <li class='listItem order2'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Business Process Reengineering</li>
+                                <li class='listItem order4'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Project Management</li>
+                            </ul>
                         </div>
                     </div>
                     <div class='d-inline-block stackedDiv'>
-                        <div class='stackedBackground'><font-awesome-icon :icon="['fas', 'chart-pie']" /></div>
-                        <div class='stackedForeground'>
-                            <h3><font-awesome-icon :icon="['fas', 'chart-pie']" /></h3>
+                        <div class='stackedBackground' style='color: #333;'><font-awesome-icon :icon="['fas', 'chart-pie']" /></div>
+                        <div class='stackedForeground fedsightBlue'  style='color: #333;'>
+                            <h3><font-awesome-icon :icon="['fas', 'chart-pie']" /> Data Analytics</h3>
+                            <p></p>
+                            <ul class='d-flex'>
+                                <li class='listItem order1'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Digital Strategy</li>
+                                <li class='listItem order3'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Cost Analyses/Optimization</li>
+                                <li class='listItem order2'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Performance Assessments</li>
+                                <li class='listItem order4'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Data Visualization</li>
+                            </ul>
                         </div>
                     </div>
                     <div class='d-inline-block stackedDiv fedsightBlueBackground'>
                         <div class='stackedBackground'><font-awesome-icon :icon="['fas', 'cloud']" /></div>
                         <div class='stackedForeground'>
-                            <h3><font-awesome-icon :icon="['fas', 'cloud']" /></h3>
+                            <h3><font-awesome-icon :icon="['fas', 'cloud']" /> IT Solutions</h3>
+                            <p></p>
+                            <ul class='d-flex'>
+                                <li class='listItem order1'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>System Development</li>
+                                <li class='listItem order3'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Business Process Automation</li>
+                                <li class='listItem order5'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>IT Management</li>
+                                <li class='listItem order2'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Requirement Analysis</li>
+                                <li class='listItem order4'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>SalesForce Development</li>
+                                <li class='listItem order6'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>SharePoint Development</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 stackedDivRight'></div>
+                <div class='col-md-5 col-lg-6 stackedDivRight'></div>
             </div>
         </div>
 
@@ -73,6 +97,7 @@
     background-color: transparent;
     color: #687b86;
     position: absolute;
+    z-index: 1;
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -90,7 +115,59 @@
     width: auto;
 }
 .stackedForeground{
-
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.stackedForeground > ul{
+    margin: 0rem;
+    padding: 0rem;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.stackedForeground > ul > li{
+    padding: 0.5rem 0rem;
+}
+.listItem{
+    display: inline-block;
+    width: 50%;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
+.order5{
+    order: 5;
+}
+.check{
+    padding: 0.3rem;
+    border-radius: 50%;
+    color: #333;
+    margin-right: 0.5rem;
+}
+.checkAlt{
+    padding: 0.3rem;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 0.5rem;
 }
   /****************  Media Queries *****************/
   @media only screen and (max-width: 1000px) {

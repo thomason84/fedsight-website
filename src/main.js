@@ -9,6 +9,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faChartPie } from '@fortawesome/free-solid-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 import VueResource from 'vue-resource'
 
@@ -20,6 +21,7 @@ library.add(faDownload)
 library.add(faUsers)
 library.add(faChartPie)
 library.add(faCloud)
+library.add(faCheck)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
