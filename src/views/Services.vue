@@ -62,21 +62,225 @@
             </div>
         </div>
 
-        
+        <section class="container d-flex flex-wrap">
+            <div class="col-12 d-flex flex-wrap flipSection">
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightBlueBackground"> 
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+               
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightGreenBackground"> 
+                        <div class="inner card2Inner ">   
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightYellowBackground"> 
+                        <div class="inner card3Inner ">  
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightYellowBackground"> 
+                        <div class="inner card4Inner "> 
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightBlueBackground"> 
+                        <div class="inner card5Inner">  
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightGreenBackground"> 
+                        <div class="inner card6Inner ">   
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightGreenBackground"> 
+                        <div class="inner card7Inner ">   
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightYellowBackground"> 
+                        <div class="inner card8Inner ">  
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-inline-block cardContainer">
+                    <div class="flip">
+                    <div class="card"> 
+                        <div class="face front fedsightBlueBackground"> 
+                        <div class="inner card9Inner">  
+                            <div class='whiteText'>
+                                <p>some Text here</p>
+                            </div>
+                        </div>
+                        </div> 
+                        <div class="face back"> 
+                        <div class="inner text-center">
+                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
+                            <p class='cardText'>Some Text here</p>
+                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                        </div>
+                        </div>
+                    </div>	 
+                    </div>
+                </div>
+            </div>
+            </section>
         <Footer />
         
     </div>
 </template>
 
 <script>
+import JQuery from 'jquery'
+let $ = JQuery
 import Footer from '@/components/Footer.vue'
 
   export default {
     name: 'Services',
     components: {
         Footer
+    },
+    mounted() {
+        $('.flip').hover(function(){
+        $(this).find('.card').toggleClass('flipped');
+        })
     }
-  }
+}
 </script>
 
 <style scoped>
@@ -180,6 +384,148 @@ import Footer from '@/components/Footer.vue'
     color: #fff;
     margin-right: 0.5rem;
 }
+
+
+/**************  Flipper ****************/
+  .flipSection{
+    background-color: #eee;
+    padding: 3rem 0rem;
+  }
+  .cardContainer{
+    padding: 1.5rem !important;
+    height: 30rem;
+    max-width: 38rem;
+    margin: 1rem auto;
+  }
+  .flip {
+    -webkit-perspective: 800;   
+            perspective: 800;
+            position: relative;
+            text-align: center;
+  }
+  .flip .card.flipped {
+    -webkit-transform: rotatey(-180deg);
+            transform: rotatey(-180deg);
+  }
+  .flip .card {
+      width: 100%;
+      height: 30rem;
+      max-width: 38rem;
+      margin: auto;
+      -webkit-transform-style: preserve-3d;
+      -webkit-transition: 0.5s;
+      transform-style: preserve-3d;
+      transition: 0.5s;
+      background-color: #fff;
+    
+  }
+  .flip .card .face {
+    -webkit-backface-visibility: hidden ;
+      backface-visibility: hidden ;
+    z-index: 2;
+  }
+  .flip .card .front {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30rem;
+    max-width: 38rem;
+    margin: auto;
+  }
+  .flip .card .front img{
+    width: 100%;
+    height: 100%;
+  }
+  .flip .card .img {
+    position: relaitve;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: 2px solid #000;
+  }
+  .flip .card .back {
+    padding-top: 10%;
+    -webkit-transform: rotatey(-180deg);
+            transform: rotatey(-180deg);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .card.flipped{
+    background: transparent !important;
+  }
+  .face.back{
+    background-color: #fff;
+  }
+  .inner{
+    margin:0px !important;
+    width: 100%;
+    padding: 1rem;
+  }
+  .cardImage{
+    width: 100%;
+    height: 100%;
+  }
+  .card1Inner{
+    /* height: 100%;
+    width: 100%;
+    background-image: url(../assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .card2Inner{
+    /* height: 100%;
+    width: 100%;
+    background-image: url(../assets/bigstock-Smiling-business-team-working--209395762.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .card3Inner{
+    /* height: 100%;
+    width: 100%;
+    background-image: url(../assets/bigstock-Closeup-of-a-stock-market-brok-269676226.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .cardTextArea{
+    background-color: #fff;
+    width: 100%;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+  }
+  .cardButtons{
+    padding: 2rem;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .cardheader{
+    padding: 0rem 0rem 1rem;
+  }
+  .cardText{
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+
+
+
+
   /****************  Media Queries *****************/
   @media only screen and (max-width: 1000px) {
     .conditBreak{
