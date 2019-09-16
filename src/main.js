@@ -12,6 +12,15 @@ import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faCopyright } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faHdd } from '@fortawesome/free-solid-svg-icons'
+import { faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding } from '@fortawesome/free-solid-svg-icons'
+import { faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons'
+import { faChartBar } from '@fortawesome/free-solid-svg-icons'
+import { faUserFriends } from '@fortawesome/free-solid-svg-icons'
+import { faUserCog } from '@fortawesome/free-solid-svg-icons'
+import { faClipboardList } from '@fortawesome/free-solid-svg-icons'
+import { faUserTie } from '@fortawesome/free-solid-svg-icons'
 
 import VueResource from 'vue-resource'
 
@@ -26,6 +35,15 @@ library.add(faCloud)
 library.add(faCheck)
 library.add(faCopyright)
 library.add(faLinkedinIn)
+library.add(faBuilding)
+library.add(faHandshake)
+library.add(faHdd)
+library.add(faHandHoldingUsd)
+library.add(faChartBar)
+library.add(faUserFriends)
+library.add(faUserCog)
+library.add(faClipboardList)
+library.add(faUserTie)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

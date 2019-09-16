@@ -68,14 +68,15 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightBlueBackground"> 
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'user-tie']" /></i>
+                                <h3>Executive View</h3>
                             </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>We arm leadership with actionable data by enabling cross functional, organizational, and temporal comparison. Start questioning the data and finding the answers to drive positive change.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -88,16 +89,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightGreenBackground"> 
-                        <div class="inner card2Inner ">   
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card2Inner h-100">   
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'hand-holding-usd']" /></i>
+                                <h3>Budget Management</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Examine the current status of the budget and model potential changes. We give budget analysts the tools to examine budget execution and allocate resources where they are needed most.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -110,16 +112,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightYellowBackground"> 
-                        <div class="inner card3Inner ">  
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card3Inner h-100">  
+                            <div class='fedsightBlue d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'user-friends']" /></i>
+                                <h3>HR Solutions</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Grasp the make-up of your workforce, anticipate changes, and identify resource needs. Track and project the costs and flow of resources throughout the human capital lifecycle.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -132,16 +135,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightYellowBackground"> 
-                        <div class="inner card4Inner "> 
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card4Inner h-100"> 
+                            <div class='fedsightBlue d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'hdd']" /></i>
+                                <h3>IT Solutions</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Visualize the alignment of all information technology (IT) investments across your organization. Optimize IT portfolio management and identify cost-reduction and consolidation opportunities.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -154,16 +158,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightBlueBackground"> 
-                        <div class="inner card5Inner">  
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card5Inner h-100">  
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'building']" /></i>
+                                <h3>Facilities Solutions</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Calculate total cost of operation and maintenance of all property holdings and leases. Compare against relevant benchmarks and assess utility and cost saving opportunities.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -176,16 +181,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightGreenBackground"> 
-                        <div class="inner card6Inner ">   
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card6Inner h-100">   
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'chart-bar']" /></i>
+                                <h3>Performance View</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Manage and analyze performance across programmatic and administrative programs. Track against metrics and receive automatic updates from reports and scorecards.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -198,16 +204,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightGreenBackground"> 
-                        <div class="inner card7Inner ">   
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card7Inner h-100">   
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'user-cog']" /></i>
+                                <h3>Program View</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Evaluate how existing and proposed projects align with program goals. Analyze program effectiveness with analytics supported by detailed spending and performance metrics.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -220,16 +227,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightYellowBackground"> 
-                        <div class="inner card8Inner ">  
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card8Inner h-100">  
+                            <div class='fedsightBlue d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'clipboard-list']" /></i>
+                                <h3>Comparable View</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>Identify and compare against similar organizations or between sub-organizations to attain greater understanding of how your performance compares with others.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -242,16 +250,17 @@
                     <div class="flip">
                     <div class="card"> 
                         <div class="face front fedsightBlueBackground"> 
-                        <div class="inner card9Inner">  
-                            <div class='whiteText'>
-                                <p>some Text here</p>
+                        <div class="inner card9Inner h-100">  
+                            <div class='whiteText d-flex flex-column justify-content-center h-100'>
+                                <i class='cardIcon'><font-awesome-icon :icon="['fas', 'handshake']" /></i>
+                                <h3>Acquisitions View</h3>
                             </div>
                         </div>
                         </div> 
                         <div class="face back"> 
                         <div class="inner text-center">
-                            <h3 class='cardheader fedsightBlue'>Some title here</h3>
-                            <p class='cardText'>Some Text here</p>
+                            <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
+                            <p class='cardText'>See the nature of administrative support in terms of staffing, contracts, and activities. Identify strategies and opportunities to reduce administrative workload and associated costs.</p>
                             <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                         </div>
                         </div>
@@ -384,7 +393,13 @@ import Footer from '@/components/Footer.vue'
     color: #fff;
     margin-right: 0.5rem;
 }
-
+.cardIcon{
+    font-size: 6rem;
+}
+.whiteText > h3,
+.fedsightBlue > h3{
+    font-size: 2.2rem;
+}
 
 /**************  Flipper ****************/
   .flipSection{
@@ -473,30 +488,6 @@ import Footer from '@/components/Footer.vue'
     width: 100%;
     height: 100%;
   }
-  .card1Inner{
-    /* height: 100%;
-    width: 100%;
-    background-image: url(../assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  }
-  .card2Inner{
-    /* height: 100%;
-    width: 100%;
-    background-image: url(../assets/bigstock-Smiling-business-team-working--209395762.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  }
-  .card3Inner{
-    /* height: 100%;
-    width: 100%;
-    background-image: url(../assets/bigstock-Closeup-of-a-stock-market-brok-269676226.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  }
   .cardTextArea{
     background-color: #fff;
     width: 100%;
@@ -518,7 +509,7 @@ import Footer from '@/components/Footer.vue'
     padding: 0rem 0rem 1rem;
   }
   .cardText{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: left;
   }
 

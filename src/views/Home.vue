@@ -330,7 +330,7 @@ export default {
     padding: 0rem 0rem 1rem;
   }
   .cardText{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: left;
   }
   /****************  Media Queries *****************/

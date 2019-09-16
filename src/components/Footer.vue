@@ -59,7 +59,6 @@
 #footer{
     padding: 3rem 1.5rem 0rem;
     margin-top: 8rem;
-    border-top: 1px solid #bbb;
 }
 .footerBar{
     color: #fff;
