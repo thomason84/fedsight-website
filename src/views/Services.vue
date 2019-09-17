@@ -279,38 +279,25 @@ import JQuery from 'jquery'
 let $ = JQuery
 import Footer from '@/components/Footer.vue'
 
-export default {
+  export default {
     name: 'Services',
     components: {
         Footer
-    },
-    data () {
-        return {
-            scrolled: false
-        };
     },
     mounted() {
         $('.flip').hover(function(){
             $(this).find('.card').toggleClass('flipped');
         })
 
-        if($('#nav-collapse').hasClass('show') === true){
+        if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
             $('.navbar-toggler').click();
         }
-    },
-    methods: {
-        handleScroll () {
-            this.scrolled = true
-            if($('#nav-collapse').hasClass('show') === true && this.scrolled === true){
+
+        window.document.body.onscroll = function() {
+            if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
                 $('.navbar-toggler').click();
             }
         }
-    },
-    created () {
-        document.body.addEventListener('scroll', this.handleScroll);
-    },
-    destroyed () {
-        document.body.removeEventListener('scroll', this.handleScroll);
     }
 }
 </script>
