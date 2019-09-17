@@ -151,15 +151,15 @@ export default {
   },
   mounted() {
     $('.flip').hover(function(){
-    $(this).find('.card').toggleClass('flipped');
+      $(this).find('.card').toggleClass('flipped');
     })
 
-    if($('#nav-collapse').hasClass('show')){
+    if($('#nav-collapse').hasClass('show') === true){
       $('.navbar-toggler').click();
     }
 
     window.document.body.onscroll = function() {
-      if($('#nav-collapse').hasClass('show')){
+      if($('#nav-collapse').hasClass('show') === true){
         $('.navbar-toggler').click();
       }
     }

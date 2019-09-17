@@ -289,12 +289,12 @@ import Footer from '@/components/Footer.vue'
             $(this).find('.card').toggleClass('flipped');
         });
 
-        if($('#nav-collapse').hasClass('show')){
+        if($('#nav-collapse').hasClass('show') === true){
             $('.navbar-toggler').click();
         }
 
         window.document.body.onscroll = function() {
-            if($('#nav-collapse').hasClass('show')){
+            if($('#nav-collapse').hasClass('show') === true){
                 $('.navbar-toggler').click();
             }
         }
