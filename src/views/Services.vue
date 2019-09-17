@@ -306,11 +306,11 @@ export default {
             }
         }
     },
-    beforeMount () {
-        window.addEventListener('scroll', this.handleScroll)
+    created () {
+        document.body.addEventListener('scroll', this.handleScroll);
     },
-    beforeDestroy () {
-        window.removeEventListener('scroll', this.handleScroll)
+    destroyed () {
+        document.body.removeEventListener('scroll', this.handleScroll);
     }
 }
 </script>
