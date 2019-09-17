@@ -382,8 +382,8 @@ import Footer from '@/components/Footer.vue'
     order: 5;
 }
 .check{
-    padding: 0.3rem;
-    border-radius: 50%;
+    padding: 0.5rem;
+    border-radius: 9999px;
     color: #333;
     margin-right: 0.5rem;
 }
