@@ -153,6 +153,16 @@ export default {
     $('.flip').hover(function(){
     $(this).find('.card').toggleClass('flipped');
     })
+
+    if($('#nav-collapse').hasClass('show')){
+      $('.navbar-toggler').click();
+    }
+
+    window.document.body.onscroll = function() {
+      if($('#nav-collapse').hasClass('show')){
+        $('.navbar-toggler').click();
+      }
+    }
   }
 }
 
@@ -330,7 +340,7 @@ export default {
     padding: 0rem 0rem 1rem;
   }
   .cardText{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: left;
   }
   /****************  Media Queries *****************/

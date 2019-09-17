@@ -101,12 +101,14 @@
     },
     methods: {
       onSlideStart(slide) {
+        slide = slide
         this.sliding = true
-        console.log(slide)
+        //console.log(slide)
       },
       onSlideEnd(slide) {
+        slide = slide
         this.sliding = false
-        console.log(slide)
+        //console.log(slide)
       }
     }
   }
