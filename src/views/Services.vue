@@ -382,13 +382,21 @@ import Footer from '@/components/Footer.vue'
     order: 5;
 }
 .check{
-    padding: 0.5rem;
-    border-radius: 9999px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
     color: #333;
     margin-right: 0.5rem;
 }
 .checkAlt{
-    padding: 0.3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     color: #fff;
     margin-right: 0.5rem;
