@@ -123,7 +123,8 @@ export default {
   },
   data(){
     return{
-      capabilities: '/files/Fedsight_Capabilities_Statement.pdf'
+      capabilities: '/files/Fedsight_Capabilities_Statement.pdf',
+      scrolled: false
     }
   },
   methods: {
@@ -147,6 +148,13 @@ export default {
         this.forceFileDownload(response)  
       })
       .catch(() => console.log('error occured'))
+    },
+
+    handleScroll () {
+      this.scrolled = true
+        if($('#nav-collapse').hasClass('show') === true && this.scrolled === true){
+        $('.navbar-toggler').click();
+      }
     }
   },
   mounted() {
@@ -157,12 +165,12 @@ export default {
     if($('#nav-collapse').hasClass('show') === true){
       $('.navbar-toggler').click();
     }
-
-    window.document.body.onscroll = function() {
-      if($('#nav-collapse').hasClass('show') === true){
-        $('.navbar-toggler').click();
-      }
-    }
+  },
+  beforeMount () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 
