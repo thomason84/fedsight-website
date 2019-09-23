@@ -108,11 +108,11 @@
 </template>
 
 <script>
-import JQuery from 'jquery'
-let $ = JQuery
 // @ is an alias to /src
 import Carousel from '@/components/Carousel.vue'
 import Footer from '@/components/Footer.vue'
+import closeMenu from '../mixins/closeMenu'
+import flipper from '../mixins/flipper'
 
 
 export default {
@@ -149,21 +149,7 @@ export default {
       .catch(() => console.log('error occured'))
     }
   },
-  mounted() {
-    $('.flip').hover(function(){
-      $(this).find('.card').toggleClass('flipped');
-    })
-
-    if($('.navbar-toggler').attr('aria-expanded') === 'true'){
-      $('.navbar-toggler').click();
-    }
-
-    window.document.body.onscroll = function() {
-      if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
-        $('.navbar-toggler').click();
-      }
-    }
-  }
+    mixins: [flipper, closeMenu]
 }
 
 

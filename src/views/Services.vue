@@ -77,7 +77,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>We arm leadership with actionable data by enabling cross functional, organizational, and temporal comparison. Start questioning the data and finding the answers to drive positive change.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -100,7 +100,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Examine the current status of the budget and model potential changes. We give budget analysts the tools to examine budget execution and allocate resources where they are needed most.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -123,7 +123,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Grasp the make-up of your workforce, anticipate changes, and identify resource needs. Track and project the costs and flow of resources throughout the human capital lifecycle.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -146,7 +146,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Visualize the alignment of all information technology (IT) investments across your organization. Optimize IT portfolio management and identify cost-reduction and consolidation opportunities.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -169,7 +169,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Calculate total cost of operation and maintenance of all property holdings and leases. Compare against relevant benchmarks and assess utility and cost saving opportunities.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -192,7 +192,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Manage and analyze performance across programmatic and administrative programs. Track against metrics and receive automatic updates from reports and scorecards.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -215,7 +215,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Evaluate how existing and proposed projects align with program goals. Analyze program effectiveness with analytics supported by detailed spending and performance metrics.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -238,7 +238,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>Identify and compare against similar organizations or between sub-organizations to attain greater understanding of how your performance compares with others.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</button> -->
                         </div>
                         </div>
                     </div>	 
@@ -261,7 +261,7 @@
                         <div class="inner text-center">
                             <!-- <h3 class='cardheader fedsightBlue'>Some title here</h3> -->
                             <p class='cardText'>See the nature of administrative support in terms of staffing, contracts, and activities. Identify strategies and opportunities to reduce administrative workload and associated costs.</p>
-                            <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                            <!-- <button type="button" class="btn btn-primary cardButtons">Learn More</!--> -->
                         </div>
                         </div>
                     </div>	 
@@ -275,30 +275,16 @@
 </template>
 
 <script>
-import JQuery from 'jquery'
-let $ = JQuery
 import Footer from '@/components/Footer.vue'
+import closeMenu from '../mixins/closeMenu'
+import flipper from '../mixins/flipper'
 
   export default {
     name: 'Services',
     components: {
         Footer
     },
-    mounted() {
-        $('.flip').hover(function(){
-            $(this).find('.card').toggleClass('flipped');
-        })
-
-        if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
-            $('.navbar-toggler').click();
-        }
-
-        window.document.body.onscroll = function() {
-            if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
-                $('.navbar-toggler').click();
-            }
-        }
-    }
+    mixins: [flipper, closeMenu]
 }
 </script>
 

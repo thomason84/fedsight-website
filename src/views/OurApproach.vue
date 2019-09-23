@@ -39,27 +39,16 @@
 </template>
 
 <script>
-import JQuery from 'jquery'
-let $ = JQuery
 import Footer from '@/components/Footer.vue'
+import closeMenu from '../mixins/closeMenu'
 
 
 export default {
-  name: 'ourApproach',
-  components: {
-    Footer
-  },
-    mounted() {
-        if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
-            $('.navbar-toggler').click();
-        }
-
-        window.document.body.onscroll = function() {
-            if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
-                $('.navbar-toggler').click();
-            }
-        }
-    }
+    name: 'ourApproach',
+    components: {
+        Footer
+    },
+    mixins: [closeMenu]
 }
 
 </script>
