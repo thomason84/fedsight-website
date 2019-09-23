@@ -22,6 +22,8 @@ import { faUserFriends } from '@fortawesome/free-solid-svg-icons'
 import { faUserCog } from '@fortawesome/free-solid-svg-icons'
 import { faClipboardList } from '@fortawesome/free-solid-svg-icons'
 import { faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { faRocket } from '@fortawesome/free-solid-svg-icons'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 import VueResource from 'vue-resource'
 
@@ -45,6 +47,8 @@ library.add(faUserFriends)
 library.add(faUserCog)
 library.add(faClipboardList)
 library.add(faUserTie)
+library.add(faRocket)
+library.add(faEye)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
