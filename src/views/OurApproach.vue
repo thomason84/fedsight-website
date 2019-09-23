@@ -6,7 +6,7 @@
 
         <section class='mainParagraph'>
             <div class='container'>
-                <h2 class='fedsightGreen'>Desire to do Work Differnetly</h2>
+                <h2 class='fedsightGreen'>Desire to do Work Differently </h2>
                 <p>We developed Fedsight with a desire to do work differently by thinking holistically and innovatively. Our team brings experience from a multitude of federal agencies to deliver change to your organization.</p>
             </div>
         </section>
@@ -22,7 +22,7 @@
                         <h3 class='fedsightGreen'>How Do We Do It?</h3>
                         <i class='approachIcon'><font-awesome-icon :icon="['fas', 'eye']" /></i>
                         <h3>Perspective</h3>
-                        <p class='approachText'>We understand the solutions underpinning your path forward</p>
+                        <p class='approachText'>We understand the solutions underpinning your path forward.</p>
                         <i class='approachIcon'><font-awesome-icon :icon="['fas', 'rocket']" /></i>
                         <h3>Accountability</h3>
                         <p class='approachText'>Our mission is to serve you first. We raise the bar on operational integrity.</p>
@@ -39,7 +39,8 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import JQuery from 'jquery'
+let $ = JQuery
 import Footer from '@/components/Footer.vue'
 
 
@@ -47,7 +48,18 @@ export default {
   name: 'ourApproach',
   components: {
     Footer
-  }
+  },
+    mounted() {
+        if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
+            $('.navbar-toggler').click();
+        }
+
+        window.document.body.onscroll = function() {
+            if($('.navbar-toggler').attr('aria-expanded') === 'true' ){
+                $('.navbar-toggler').click();
+            }
+        }
+    }
 }
 
 </script>
