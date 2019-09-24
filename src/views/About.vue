@@ -12,7 +12,7 @@
         </section>
 
         <section>
-          <div class='container-fluid'>
+          <div class='container m-auto'>
             <div class='row'>
               <div class='col-md-6 backgroundSettings imageDiv1 aboutSquare order-1 order-md-1'>
               </div>
