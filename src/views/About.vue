@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
-      <section class='container-fluid ourApproachHero d-flex align-items-center justify-content-center'>
-            <h2 class='ourApproachHeader'>About Us</h2>
+      <section class='container-fluid aboutUsHero d-flex align-items-center justify-content-center'>
+            <h2 class='aboutUsHeader'>About Us</h2>
         </section>
 
         <section class='mainParagraph'>
@@ -62,14 +62,14 @@ export default {
 </script>
 
 <style scoped>
-.ourApproachHero{
+.aboutUsHero{
     height: 30rem;
     background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ourApproachHeader{
+.aboutUsHeader{
     color: #fff;
     font-size: 6rem;
 }
