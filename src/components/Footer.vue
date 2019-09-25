@@ -19,8 +19,8 @@
                 <ul class='footerList m-auto d-inline-block'>
                     <h3 class='fedsightGreen'>Quick Links</h3>
                     <li><router-link to="/" class='col-xs-3'>Home</router-link></li>
-                    <li><router-link to="/whatWeDo" class='col-xs-3'>What We Do</router-link></li>
-                    <li><router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link></li>
+                    <li><router-link to="/services" class='col-xs-3'>Services</router-link></li>
+                    <li><router-link to="/ourApproach" class='col-xs-3'>Our Approach</router-link></li>
                     <li><router-link to="/about" class='col-xs-3'>About Us</router-link></li>
                     <li><router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link></li>
                 </ul>
