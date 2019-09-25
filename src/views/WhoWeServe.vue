@@ -38,26 +38,26 @@
             <div class='triangle-down-green m-auto'></div>
             <div class='container-fluid mt-5'>
                 <div class='row'>
-                    <div class='col-md-4 text-align-left pr-5'>
+                    <div class='col-md-4 text-align-left pr-5 pl-1'>
                         <h2 class='fedsightGreen'>GSA Professional Services Schedule</h2>
                         <p><b>Contract #: </b>47QRAA19D005V</p>
                     </div>
-                    <div class='col-md-8 text-align-left'>
+                    <div class='col-md-8 text-align-left pr-1'>
                         <p>Fedsight offers management consulting and administrative support services through the General Services Administration (GSA) Professional Services Schedule (PSS). Awarded Special Item Numbers (SINs) include SIN 874-1-Integrated Consulting Services; SIN 520-13 – Complementary Financial Management Services, SIN 874-7 – Integrated Business Program Support Services. For a detailed description of services, labor categories, and labor rates, please see <b>Fedsight’s GSA PSS Contract# 47QRAA19D005</b></p>
                     </div>
                     <hr class='m-3'>
-                    <div class='col-md-4 text-align-left pr-5 mobileSpacer'>
+                    <div class='col-md-4 text-align-left pr-5 pl-1 mobileSpacer'>
                         <h2 class='fedsightGreen'>GSA Information Technology Schedule 70</h2>
                         <p><b>Contract #: </b>47QTCA19D007S</p>
                     </div>
-                    <div class='col-md-8 text-align-left'>
+                    <div class='col-md-8 text-align-left pr-1'>
                         <p>Fedsight offers information technology services through the General Services Administration (GSA) Information Technology Schedule (IT) 70. Awarded Special Item Numbers (SINs) include SIN 132-51 – Information Technology Professional Services which encompasses systems development, systems analysis, IT strategy and architecture, IT security, and other IT services. For a detailed description of services, labor categories, and labor rates, please see <b>Fedsight’s GSA IT70 Contract # 47QTCA19D007S</b></p>
                     </div>
                     <hr class='m-3'>
-                    <div class='col-md-4 text-align-left pr-5 mobileSpacer'>
+                    <div class='col-md-4 text-align-left pr-5 pl-1 mobileSpacer'>
                         <h2 class='fedsightGreen'>Cross-government Subcontracts</h2>
                     </div>
-                    <div class='col-md-8 text-align-left'>
+                    <div class='col-md-8 text-align-left pr-1'>
                         <p>Fedsight has access to numerous agency vehicles and Governmentwide Acquisition Contracts (GWACs) through our extensive network of teaming partners. Specific Agency contracts include the Environmental Protection Agency, U.S. Coast Guard, U.S. Customs and Border Protection, General Services Administration, U.S. Housing and Urban Development, Department of Homeland Security, and Department of Energy.</p>
                     </div>
                 </div>

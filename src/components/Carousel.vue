@@ -45,7 +45,7 @@
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg"
+        img-src="@/assets/bigstock-Teamwork-Concept-Collaboratio-306924817-l.jpg"
       ></b-carousel-slide>
 
       <!-- Slide 2 -->
@@ -62,7 +62,7 @@
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock--202433170.jpg"
+        img-src="@/assets/bigstock--202433170-l.jpg"
       >
       </b-carousel-slide>
 
@@ -83,13 +83,14 @@
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock-Smiling-business-team-working--209395762.jpg"
+        img-src="@/assets/bigstock-Smiling-business-team-working--209395762-l.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
 </template>
 
 <script>
+  /* eslint-disable */
   export default {
     name: 'Carousel',
     data() {
@@ -101,12 +102,10 @@
     },
     methods: {
       onSlideStart(slide) {
-        slide = slide
         this.sliding = true
         //console.log(slide)
       },
       onSlideEnd(slide) {
-        slide = slide
         this.sliding = false
         //console.log(slide)
       }

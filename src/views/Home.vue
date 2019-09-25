@@ -284,7 +284,7 @@ export default {
   .card1Inner{
     height: 100%;
     width: 100%;
-    background-image: url(../assets/bigstock-Teamwork-Concept-Collaboratio-306924817.jpg);
+    background-image: url(../assets/bigstock-Teamwork-Concept-Collaboratio-306924817-s.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,7 +292,7 @@ export default {
   .card2Inner{
     height: 100%;
     width: 100%;
-    background-image: url(../assets/bigstock-Smiling-business-team-working--209395762.jpg);
+    background-image: url(../assets/bigstock-Smiling-business-team-working--209395762-s.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ export default {
   .card3Inner{
     height: 100%;
     width: 100%;
-    background-image: url(../assets/bigstock-Closeup-of-a-stock-market-brok-269676226.jpg);
+    background-image: url(../assets/bigstock-Closeup-of-a-stock-market-brok-269676226-s.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
