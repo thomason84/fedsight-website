@@ -5,8 +5,10 @@
         <div class='container'>
           <div class='row'>
             <h1 class='slogan col-md-12'>Identify What Matters</h1>
-            <div class='mainCTA fedsightYellowBackground m-auto d-flex align-items-center justify-content-center'>Let Us Show You
-            </div>
+            <router-link to="/ourApproach" class='m-auto d-inline-block mainCTA'>  
+              <div class='mainCTA fedsightYellowBackground fedsightBlue m-auto d-flex align-items-center justify-content-center'>Let Us Show You
+              </div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -182,6 +184,10 @@ export default {
     width: 22rem;
     font-size: 2rem;
     cursor: pointer;
+    text-decoration: none;
+  }
+  .mainCTA:hover{
+    background-color: #d5b508 !important;
   }
   .boxSection{
     min-height: 30rem;

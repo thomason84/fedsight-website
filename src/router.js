@@ -41,3 +41,9 @@ export default new Router({
     }
   ]
 })
+
+
+// Vue.use(VueAnalytics, {
+//   id: 'UA-XXX-X',
+//   Router
+// })
