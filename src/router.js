@@ -33,6 +33,11 @@ export default new Router({
       path: '/ourApproach',
       name: 'ourApproach',
       component: () => import('./views/OurApproach.vue')
+    },
+    {
+      path: '/whoWeServe',
+      name: 'whoWeServe',
+      component: () => import('./views/WhoWeServe.vue')
     }
   ]
 })

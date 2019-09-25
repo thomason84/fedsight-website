@@ -3,46 +3,44 @@
 <template>
     <div id='footer' class='container-fluid'>
         <div class='row'>
-            <div class='container d-flex align-items-start'>
-                <div class='col-xs-6 col-md-3'>
-                    <ul class='footerList'>
-                        <h3 class='fedsightGreen'>Contact Us</h3>
-                        <li>
-                            215 Depot Court SE <br>
-                            2nd Floor #249 <br>
-                            Leesburg, VA 20175
-                        </li>
-                        <li><strong>Phone:</strong> </li>
-                        <li><strong>Email:</strong> </li>
-                    </ul>
-                </div>
-                <div class='col-xs-6 col-md-3'>
-                    <ul class='footerList'>
-                        <h3 class='fedsightGreen'>Quick Links</h3>
-                        <li><router-link to="/" class='col-xs-3'>Home</router-link></li>
-                        <li><router-link to="/whatWeDo" class='col-xs-3'>What We Do</router-link></li>
-                        <li><router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link></li>
-                        <li><router-link to="/about" class='col-xs-3'>About Us</router-link></li>
-                        <li><router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link></li>
-                    </ul>
-                </div>
-                <div class='col-xs-6 col-md-3'>
-                    <ul class='footerList'>
-                        <h3 class='fedsightGreen'>Something Else</h3>
-                        <li>Interesting Stuff</li>
-                        <li>Cool Link</li>
-                        <li>Brag about something</li>
-                    </ul>
-                </div>
-                
-                <div class='col-xs-12 col-md-3'>
-                    <img class='certImg' src="@/assets/hubzone5-3-1080x675.jpg" alt="hubzone certification logo">
-                </div>
+            <div class='col-6 col-md-3'>
+                <ul class='footerList m-auto d-inline-block'>
+                    <h3 class='fedsightGreen'>Contact Us</h3>
+                    <li>
+                        215 Depot Court SE <br>
+                        2nd Floor #249 <br>
+                        Leesburg, VA 20175
+                    </li>
+                    <li><strong>Phone:</strong> </li>
+                    <li><strong>Email:</strong> </li>
+                </ul>
+            </div>
+            <div class='col-6 col-md-3'>
+                <ul class='footerList m-auto d-inline-block'>
+                    <h3 class='fedsightGreen'>Quick Links</h3>
+                    <li><router-link to="/" class='col-xs-3'>Home</router-link></li>
+                    <li><router-link to="/whatWeDo" class='col-xs-3'>What We Do</router-link></li>
+                    <li><router-link to="/whoWeAre" class='col-xs-3'>Who We Are</router-link></li>
+                    <li><router-link to="/about" class='col-xs-3'>About Us</router-link></li>
+                    <li><router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link></li>
+                </ul>
+            </div>
+            <!-- <div class='col-xs-6 col-md-3'>
+                <ul class='footerList'>
+                    <h3 class='fedsightGreen'>Something Else</h3>
+                    <li>Interesting Stuff</li>
+                    <li>Cool Link</li>
+                    <li>Brag about something</li>
+                </ul>
+            </div> -->
+            
+            <div class='col-12 col-md-6'>
+                <img class='certImg' src="@/assets/hubzone5-3-1080x675.jpg" alt="hubzone certification logo">
             </div>
 
             <div class='col-12 fedsightBlueBackground footerBar d-flex justify-content-between align-items-center'>
                 <p><font-awesome-icon :icon="['fas', 'copyright']" /> Fedsight Consulting</p>
-                <a href='https://www.linkedin.com/company/fedsight-llc' target='_blank' aria-label='Link to Fedsights LinkedIn profile' class='linkedInIcon'><font-awesome-icon :icon="['fab', 'linkedin-in']" /></a>
+                <a href='https://www.linkedin.com/company/fedsight-llc' target='_blank' rel="noreferrer" aria-label='Link to Fedsights LinkedIn profile' class='linkedInIcon'><font-awesome-icon :icon="['fab', 'linkedin-in']" /></a>
             </div>
         </div>
     </div>
