@@ -11,8 +11,8 @@
                         2nd Floor #249 <br>
                         Leesburg, VA 20175
                     </li>
-                    <li><strong>Phone:</strong> </li>
-                    <li><strong>Email:</strong> </li>
+                    <!-- <li><strong>Phone:</strong> </li> -->
+                    <li><strong>Email:</strong>info@fedsight.com </li>
                 </ul>
             </div>
             <div class='col-6 col-md-3'>

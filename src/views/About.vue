@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
       <section class='container-fluid aboutUsHero d-flex align-items-center justify-content-center'>
-            <h2 class='aboutUsHeader'>About Us</h2>
+            <h2 class='aboutUsHeader internalHeader'>About Us</h2>
         </section>
 
         <section class='mainParagraph'>

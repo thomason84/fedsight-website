@@ -39,6 +39,9 @@ a:active{
 h1, h2, h3 ,h4 {
   font-family: 'comfortaaregular', sans-serif;
 }
+h2{
+  font-size: 2.5rem !important;
+}
 .text-align-center{
   text-align: center;
 }
@@ -75,6 +78,9 @@ ul.slideList {
 }
 img.img-fluid.w-100.d-block {
   min-height: 30rem;
+}
+.internalHeader{
+  font-size: 6rem !important;
 }
 
 @media only screen and (max-width: 500px) {

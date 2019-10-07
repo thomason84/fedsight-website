@@ -2,9 +2,9 @@
   <div class='container'>
     <div class='container-fluid'>
       <div class='row'>
-        <div @click='slide = 0' class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategize</div>
-        <div @click='slide = 1' class='col-4 fedsightGreenBackground whiteText carouselHeader'>Develop</div>
-        <div @click='slide = 2' class='col-4 fedsightYellowBackground carouselHeader'>Manage</div>
+        <div @click='slide = 0' class='col-4 fedsightBlueBackground whiteText carouselHeader'>Strategy</div>
+        <div @click='slide = 1' class='col-4 fedsightGreenBackground whiteText carouselHeader'>Development</div>
+        <div @click='slide = 2' class='col-4 fedsightYellowBackground carouselHeader'>Operations</div>
       </div>
     </div>
     <div class='container-fluid relative'>

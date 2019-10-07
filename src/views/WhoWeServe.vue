@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
         <section class='container-fluid serveHero d-flex align-items-center justify-content-center'>
-            <h2 class='serveHeader'>Who We Serve</h2>
+            <h2 class='serveHeader internalHeader'>Who We Serve</h2>
         </section>
 
         <section class='clientList fedsightBlueBackground'>
@@ -43,7 +43,7 @@
                         <p><b>Contract #: </b>47QRAA19D005V</p>
                     </div>
                     <div class='col-md-8 text-align-left pr-1 pl-1'>
-                        <p>Fedsight offers management consulting and administrative support services through the General Services Administration (GSA) Professional Services Schedule (PSS). Awarded Special Item Numbers (SINs) include SIN 874-1-Integrated Consulting Services; SIN 520-13 – Complementary Financial Management Services, SIN 874-7 – Integrated Business Program Support Services. For a detailed description of services, labor categories, and labor rates, please see <b>Fedsight’s GSA PSS Contract# 47QRAA19D005</b></p>
+                        <p>Fedsight offers management consulting and administrative support services through the General Services Administration (GSA) Professional Services Schedule (PSS). Awarded Special Item Numbers (SINs) include SIN 874-1-Integrated Consulting Services; SIN 520-13 – Complementary Financial Management Services, SIN 874-7 – Integrated Business Program Support Services. For a detailed description of services, labor categories, and labor rates, please see <b>Fedsight’s GSA PSS Contract# 47QRAA19D005V</b></p>
                     </div>
                     <hr class='m-3'>
                     <div class='col-md-4 text-align-left pr-5 pl-1 mobileSpacer'>

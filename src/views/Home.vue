@@ -18,7 +18,7 @@
       <div class='row' style='height: 100%;'>
         <div class='container d-flex align-content-center justify-content-center flex-wrap'>
           <h2 class='fedsightGreen'>We Assess Problems and Tailor Solutions for Federal Agencies</h2>
-          <p class='cardText'>As an insight based consulting firm, we are acutely aware of the admission and programmatic nuances of government agencies.  We can aid you regardless of where your organization is in the development process.
+          <p>As an insight based consulting firm, we are acutely aware of the admission and programmatic nuances of government agencies.  We can aid you regardless of where your organization is in the development process.
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@
                 <div class="face front"> 
                   <div class="inner card1Inner">   
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
-                      <h3 class='fedsightGreen'>Contract Vehicle Overview</h3>
+                      <h3 class='fedsightGreen'>Contract Vehicles</h3>
                     </div>
                   </div>
                 </div> 
@@ -68,7 +68,7 @@
                 <div class="face front"> 
                   <div class="inner card2Inner">   
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
-                      <h3 class='fedsightGreen' style='text-'>Capabilities Overview</h3>
+                      <h3 class='fedsightGreen' style='text-'>Capabilities</h3>
                     </div>
                   </div>
                 </div> 
@@ -88,7 +88,7 @@
                 <div class="face front"> 
                   <div class="inner card3Inner">   
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
-                      <h3 class='fedsightGreen'>Driving Excellent Performance</h3>
+                      <h3 class='fedsightGreen'>Clients</h3>
                     </div>
                   </div>
                 </div> 
@@ -164,7 +164,7 @@ export default {
   .heroSection{
     height: 70vh;
     min-height: 50rem;
-    background-image: url(../assets/bigstock-The-Capitol-Building-at-night--97098275.jpg);
+    background-image: url(../assets/bigstock-The-Capitol-Building-at-night--97098275-d2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -182,9 +182,10 @@ export default {
   .mainCTA{
     height: 5rem;
     width: 22rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
   }
   .mainCTA:hover{
     background-color: #d5b508 !important;

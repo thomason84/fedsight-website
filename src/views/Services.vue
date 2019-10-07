@@ -1,7 +1,7 @@
 <template>
     <div class="services spacer">
         <div class='container-fluid servicesHero d-flex align-items-center justify-content-center'>
-            <h2 class='servicesHeader'>Services</h2>
+            <h2 class='servicesHeader internalHeader'>Services</h2>
         </div>
 
         <div class='container mainParagraph'>
@@ -22,7 +22,7 @@
                             <p></p>
                             <ul class='d-flex'>
                                 <li class='listItem order1'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Strategic Planning</li>
-                                <li class='listItem order3'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Organizational Transformations</li>
+                                <li class='listItem order3'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Organizational Transformation</li>
                                 <li class='listItem order5'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Change Management</li>
                                 <li class='listItem order2'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Business Process Reengineering</li>
                                 <li class='listItem order4'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Project Management</li>
