@@ -15,7 +15,7 @@
                     <li><strong>Email:</strong>info@fedsight.com </li>
                 </ul>
             </div>
-            <div class='col-6 col-md-3'>
+            <!-- <div class='col-6 col-md-3'>
                 <ul class='footerList m-auto d-inline-block'>
                     <h3 class='fedsightGreen'>Quick Links</h3>
                     <li><router-link to="/" class='col-xs-3'>Home</router-link></li>
@@ -24,7 +24,7 @@
                     <li><router-link to="/about" class='col-xs-3'>About Us</router-link></li>
                     <li><router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link></li>
                 </ul>
-            </div>
+            </div> -->
             <!-- <div class='col-xs-6 col-md-3'>
                 <ul class='footerList'>
                     <h3 class='fedsightGreen'>Something Else</h3>
