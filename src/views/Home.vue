@@ -192,6 +192,7 @@ export default {
   }
   .boxSection{
     min-height: 30rem;
+    margin-top: 8rem;
   }
   .boxSectionItem{
     height: 30rem;
@@ -208,7 +209,7 @@ export default {
   }
   .cardContainer{
     padding: 1.5rem !important;
-    height: 40rem;
+    height: 43rem;
     max-width: 38rem;
     margin: 1rem auto;
   }
