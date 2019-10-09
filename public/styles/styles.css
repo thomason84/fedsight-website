@@ -6,6 +6,12 @@ html body{
   font-size: 1.6rem;
   color: #333;
   margin: 0rem;
+  max-width: 160rem;
+  margin: auto;
+}
+#navbar{
+  max-width: 160rem;
+  margin: auto;
 }
 a,
 a:hover,
@@ -74,17 +80,11 @@ h2{
   cursor: pointer;
 }
 ul.slideList {
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
 }
 img.img-fluid.w-100.d-block {
   min-height: 30rem;
 }
 .internalHeader{
   font-size: 6rem !important;
-}
-
-@media only screen and (max-width: 500px) {
-  ul.slideList {
-    font-size: 3vw !important;
-  }
 }

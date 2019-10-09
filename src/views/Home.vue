@@ -1,14 +1,16 @@
 <template>
   <div class="home">
-    <section class='heroSection d-flex align-items-center justify-content-center container-fluid'>
+    <section class='heroSection d-flex align-items-center justify-content-end container-fluid'>
       <div class='row'>
         <div class='container'>
           <div class='row'>
-            <h1 class='slogan col-md-12'>Identify What Matters</h1>
-            <router-link to="/ourApproach" class='m-auto d-inline-block mainCTA'>  
-              <div class='mainCTA fedsightYellowBackground fedsightBlue m-auto d-flex align-items-center justify-content-center'>Let Us Show You
-              </div>
+            <h1 class='slogan col-md-9 ml-auto text-align-left'>Transforming the solutions</h1>
+            <p class='col-md-9 whiteText mainCTAText ml-auto text-align-left'>As a HUBzone small business, we use 
+            <router-link to="/ourApproach" class='d-inline-block'>  
+              <span class='whiteText mainCTA'>DIGITAL ANALYTICS
+              </span>
             </router-link>
+            to identify insights for lasting results.</p>
           </div>
         </div>
       </div>
@@ -164,7 +166,6 @@ export default {
   .heroSection{
     height: 70vh;
     min-height: 50rem;
-    background-image: url(../assets/bigstock-The-Capitol-Building-at-night--97098275-d2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -175,20 +176,24 @@ export default {
   .slogan{
     font-weight:normal;
     font-style:normal;
-    font-size: 3.5vw;
+    font-size: 6.5rem;
     max-width: 100%;
     color: white;
   }
-  .mainCTA{
-    height: 5rem;
-    width: 22rem;
-    font-size: 1.8rem;
-    cursor: pointer;
+  .mainCTAText{
+    font-size: 2.2rem;
+  }
+  a:hover {
     text-decoration: none;
+  }
+  .mainCTA{
+    border-bottom: 2px solid #fff;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin: 0rem 0.5rem;
   }
   .mainCTA:hover{
-    background-color: #d5b508 !important;
+    font-weight: bold;
   }
   .boxSection{
     min-height: 30rem;
@@ -339,13 +344,66 @@ export default {
   }
   /****************  Media Queries *****************/
   @media only screen and (max-width: 60rem) {
-  .slogan {
-      font-size: 3rem;
+    .slogan {
+      font-size: 4.4rem;
+    }
+    .mainCTAText{
+      font-size: 2rem;
     }
   }
   @media only screen and (min-width: 150rem) {
   .slogan {
       font-size: 9rem;
+    }
+  }
+
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) { 
+    .heroSection{
+      background-image: url(../assets/home-hero-small.jpg);
+    }
+  }
+
+  @media (min-width: 576px) { 
+    .heroSection{
+      background-image: url(../assets/home-hero-small.jpg);
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .slogan,
+    .mainCTAText{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .heroSection{
+      justify-content: center !important;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .heroSection{
+      background-image: url(../assets/home-hero-medium.jpg);
+    }
+    .mainCTAText{
+      padding-right: 3rem !important;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .heroSection{
+      background-image: url(../assets/home-hero-medium.jpg);
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .heroSection{
+      background-image: url(../assets/home-hero-large.jpg);
     }
   }
 </style>

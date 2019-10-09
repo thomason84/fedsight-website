@@ -39,13 +39,13 @@
         text-tag='div'
         text-html="
         <ul class='slideList' style='text-align: left; list-style-type: disc;font-size: 2rem'>
-          <li>strategic planning</li>
-          <li>forecasting</li>
-          <li>early-stage product development planning</li>
+          <li>Strategic planning</li>
+          <li>Forecasting</li>
+          <li>Early-stage product development planning</li>
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock-Teamwork-Concept-Collaboratio-306924817-l.jpg"
+        img-src="@/assets/strategy-medium.jpg"
       ></b-carousel-slide>
 
       <!-- Slide 2 -->
@@ -62,7 +62,7 @@
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock--202433170-l.jpg"
+        img-src="@/assets/development-medium.jpg"
       >
       </b-carousel-slide>
 
@@ -79,11 +79,10 @@
           <li>Project Management</li>
           <li>Performance Assessments</li>
           <li>Cost Analyses/Optimization</li>
-          <li>Data Visualization</li>
         </ul>
         <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
-        img-src="@/assets/bigstock-Smiling-business-team-working--209395762-l.jpg"
+        img-src="@/assets/operations-medium.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
