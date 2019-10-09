@@ -176,7 +176,7 @@ export default {
   .slogan{
     font-weight:normal;
     font-style:normal;
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     max-width: 100%;
     color: white;
   }
@@ -345,10 +345,10 @@ export default {
   /****************  Media Queries *****************/
   @media only screen and (max-width: 60rem) {
     .slogan {
-      font-size: 4.4rem;
+      font-size: 3.5rem;
     }
     .mainCTAText{
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
   @media only screen and (min-width: 150rem) {
