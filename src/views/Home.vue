@@ -1,16 +1,10 @@
 <template>
   <div class="home spacer">
-    <section class='heroSection d-flex align-items-center justify-content-end container-fluid'>
+    <section class='heroSection d-flex align-items-center justify-content-center container-fluid'>
       <div class='row'>
         <div class='container'>
           <div class='row'>
-            <h1 class='slogan col-md-9 ml-auto text-align-left'>Imagine what’s possible</h1>
-            <p class='col-md-9 whiteText mainCTAText ml-auto text-align-left'>As a HUBzone small business, we use 
-            <router-link to="/ourApproach" class='d-inline-block'>  
-              <span class='whiteText mainCTA'>DIGITAL ANALYTICS
-              </span>
-            </router-link>
-            to identify insights for lasting results.</p>
+            <h1 class='slogan col-md-12 ml-auto text-align-left'>Imagine what’s possible</h1>
           </div>
         </div>
       </div>
@@ -19,8 +13,8 @@
     <section class='mainParagraph container'>
       <div class='row' style='height: 100%;'>
         <div class='container d-flex align-content-center justify-content-center flex-wrap'>
-          <h2 class='fedsightGreen'>We Assess Problems and Tailor Solutions for Federal Agencies</h2>
-          <p>As an insight based consulting firm, we are acutely aware of the admission and programmatic nuances of government agencies.  We can aid you regardless of where your organization is in the development process.
+          <h2 class='fedsightGreen'>We Assess Problems and Create Innovative Solutions for Federal Agencies </h2>
+          <p>We integrate strategy, development, and analytics to optimize operations and program performance.
           </p>
         </div>
       </div>

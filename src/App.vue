@@ -15,7 +15,7 @@
               <router-link to="/services" class='col-xs-3'>Services</router-link>
               <router-link to="/ourApproach" class='col-xs-3'>Our Approach</router-link>
               <router-link to="/about" class='col-xs-3'>About Us</router-link>
-              <router-link to="/whoWeServe" class='col-xs-3'>Who We Serve</router-link>
+              <router-link to="/whoWeServe" class='col-xs-3'>Clients</router-link>
             </div>
           </b-navbar-nav>
         </b-collapse>

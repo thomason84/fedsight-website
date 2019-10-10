@@ -1,13 +1,13 @@
 <template>
   <div class="about spacer">
       <section class='container-fluid aboutUsHero d-flex align-items-center justify-content-center'>
-            <h2 class='aboutUsHeader internalHeader'>About Us</h2>
+            <h2 class='aboutUsHeader internalHeader'>Who We Are</h2>
         </section>
 
         <section class='mainParagraph'>
             <div class='container'>
-                <h2 class='fedsightGreen'>Building a Stronger Future Together</h2>
-                <p>After two decades of advising federal clients, William “Will” Carleton, started Fedsight with a vision to apply proven management strategies across government agencies to improve capability, efficiency, and leadership. Fedsight will help your business employ lasting solutions to build, retain, and expand fundamental capabilities. </p>
+                <h2 class='fedsightGreen'>Working Through the Tough Problems Calls for Greater Insight</h2>
+                <p>We are a team of management consultants, solution developers, and functional experts all dedicated to creating lasting value. We work differently by thinking holistically and using our experience and insight gained through commercial and federal projects.</p>
             </div>
         </section>
 

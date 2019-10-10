@@ -1,14 +1,13 @@
 <template>
     <div class="services spacer">
         <div class='container-fluid servicesHero d-flex align-items-center justify-content-center'>
-            <h2 class='servicesHeader internalHeader'>Services</h2>
+            <h2 class='servicesHeader internalHeader'>What We Deliver</h2>
         </div>
 
         <div class='container mainParagraph'>
             <div class='row d-flex justify-content-center text-align-center'>
                 <h2 class='fedsightGreen'>Working Through the Tough Problems Calls for Greater Insight</h2>
-                <p>Fedsight has the experience and knowledge to help you maneuver the challenge with agility and perspective. <span class='conditBreak'><br></span>We help solve problems to enhance efficiency, and ensure programs remain cost-effective, transparent, and well-organized.</p>
-                <p>Fedisght has worked across the federal spectrum to solve problems at every organizational level. Our business promise is helping<span class='conditBreak'><br></span> you leverage challenges to serve as opportunities; to enhance decision making, and turn plans into  actionable solutions.</p>
+                <p>We deliver innovative management, technology solutions, and analytics services to drive improvement and sustainable change. We help your organization implement creative, agile answers that fit within your organizations operating environment and culture.</p>
             </div>
         </div>
 
@@ -401,7 +400,7 @@ import flipper from '../mixins/flipper'
 .cardIcon{
     font-size: 6rem;
 }
-.whiteText > h3,
+.stackedForeground > h3,
 .fedsightBlue > h3{
     font-size: 2.2rem;
 }
