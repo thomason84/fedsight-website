@@ -4,7 +4,7 @@
       <div class='row'>
         <div class='container'>
           <div class='row'>
-            <h1 class='slogan col-md-9 ml-auto text-align-left'>Transforming the solutions</h1>
+            <h1 class='slogan col-md-9 ml-auto text-align-left'>Imagine what’s possible</h1>
             <p class='col-md-9 whiteText mainCTAText ml-auto text-align-left'>As a HUBzone small business, we use 
             <router-link to="/ourApproach" class='d-inline-block'>  
               <span class='whiteText mainCTA'>DIGITAL ANALYTICS
@@ -56,7 +56,8 @@
                   <div class="inner text-center">
                     <h3 class='cardheader fedsightBlue'>GSA INFORMATION TECHNOLOGY SCHEDULE 70</h3>
                     <p class='cardText'>Contract #: 47QTCA19D007S</p>
-                    <p class='cardText'>The IT Schedule 70 allows Fedsight to help clients maximize their operational potential by providing systems development, systems analysis, IT strategy and architecture, IT security, and other IT services.</p>
+                    <h3 class='cardheader fedsightBlue' style='margin-top: 3rem;'>GSA Professional Services Schedule</h3>
+                    <p class='cardText'>Contract #: 47QRAA19D005V</p>
                     <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                   </div>
                 </div>
@@ -362,12 +363,18 @@ export default {
   @media (max-width: 576px) { 
     .heroSection{
       background-image: url(../assets/home-hero-small.jpg);
+      max-height: 38rem;
+      min-height: 38rem !important;
+      background-position: center;
     }
   }
 
   @media (min-width: 576px) { 
     .heroSection{
       background-image: url(../assets/home-hero-small.jpg);
+      max-height: 38rem;
+      min-height: 38rem !important;
+      background-position: center;
     }
   }
 
@@ -387,6 +394,8 @@ export default {
   @media (min-width: 768px) { 
     .heroSection{
       background-image: url(../assets/home-hero-medium.jpg);
+      max-height: 50rem;
+      min-height: 50rem !important;
     }
     .mainCTAText{
       padding-right: 3rem !important;
@@ -397,6 +406,8 @@ export default {
   @media (min-width: 992px) { 
     .heroSection{
       background-image: url(../assets/home-hero-medium.jpg);
+      max-height: 50rem;
+      min-height: 50rem !important;
     }
   }
 
@@ -404,6 +415,8 @@ export default {
   @media (min-width: 1200px) { 
     .heroSection{
       background-image: url(../assets/home-hero-large.jpg);
+      max-height: 60rem;
+      min-height: 60rem !important;
     }
   }
 </style>
