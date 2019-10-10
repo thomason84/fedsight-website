@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home spacer">
     <section class='heroSection d-flex align-items-center justify-content-end container-fluid'>
       <div class='row'>
         <div class='container'>
@@ -46,7 +46,8 @@
             <div class="flip">
               <div class="card"> 
                 <div class="face front"> 
-                  <div class="inner card1Inner">   
+                  <div class="inner card1Inner d-flex justify-content-center align-items-center">   
+                    <font-awesome-icon :icon="['fas', 'file-contract']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
                       <h3 class='fedsightGreen'>Contract Vehicles</h3>
                     </div>
@@ -69,7 +70,8 @@
             <div class="flip">
               <div class="card"> 
                 <div class="face front"> 
-                  <div class="inner card2Inner">   
+                  <div class="inner card2Inner d-flex justify-content-center align-items-center"> 
+                    <font-awesome-icon :icon="['fas', 'atom']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
                       <h3 class='fedsightGreen' style='text-'>Capabilities</h3>
                     </div>
@@ -89,7 +91,8 @@
             <div class="flip">
               <div class="card"> 
                 <div class="face front"> 
-                  <div class="inner card3Inner">   
+                  <div class="inner card3Inner d-flex justify-content-center align-items-center">   
+                    <font-awesome-icon :icon="['fas', 'users']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
                       <h3 class='fedsightGreen'>Clients</h3>
                     </div>
@@ -295,7 +298,15 @@ export default {
     width: 100%;
     height: 100%;
   }
-  .card1Inner{
+  .card1Inner,
+  .card2Inner,
+  .card3Inner{
+    height: 100%;
+    width: 100%;
+    font-size: 15rem;
+    color: #132631;
+  }
+  /*.card1Inner{
     height: 100%;
     width: 100%;
     background-image: url(../assets/bigstock-Teamwork-Concept-Collaboratio-306924817-s.jpg);
@@ -309,7 +320,7 @@ export default {
     background-image: url(../assets/bigstock-Smiling-business-team-working--209395762-s.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
   }
   .card3Inner{
     height: 100%;
@@ -317,8 +328,8 @@ export default {
     background-image: url(../assets/bigstock-Closeup-of-a-stock-market-brok-269676226-s.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  }
+    background-size: cover; 
+  }*/
   .cardTextArea{
     background-color: #fff;
     width: 100%;
