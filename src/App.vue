@@ -59,7 +59,8 @@ a.router-link-exact-active {
   text-decoration: none;
 }
 .logo{
-    width: 25rem;
+    width: 100%;
+    max-width: 25rem;
 }
 button.navbar-toggler {
   background-color: #fff;

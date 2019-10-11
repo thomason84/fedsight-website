@@ -60,7 +60,7 @@
             </div>
         </div>
 
-        <div class='container text-align-left mt-5 p-0'>
+        <div class='container text-align-left mt-5 p-0 ourApproach'>
             <h2 class='fedsightGreen text-align-left'>Desire to do Work Differently </h2>
             <p>We developed Fedsight with a desire to do work differently by thinking holistically and innovatively. Our team brings experience from a multitude of federal agencies to deliver change to your organization.</p>
 
@@ -592,6 +592,9 @@ import flipper from '../mixins/flipper'
     .fa-users,
     .fa-cloud{
         margin: auto;
+    }
+    .container{
+        padding: 1.5rem !important;
     }
   }
 
