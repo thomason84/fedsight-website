@@ -13,7 +13,6 @@
             <div class='d-flex ml-auto nav-links'>
               <router-link to="/" class='col-xs-3'>Home</router-link>
               <router-link to="/services" class='col-xs-3'>Services</router-link>
-              <router-link to="/ourApproach" class='col-xs-3'>Our Approach</router-link>
               <router-link to="/about" class='col-xs-3'>About Us</router-link>
               <router-link to="/whoWeServe" class='col-xs-3'>Clients</router-link>
             </div>

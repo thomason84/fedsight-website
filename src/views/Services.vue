@@ -1,7 +1,7 @@
 <template>
     <div class="services spacer">
         <div class='container-fluid servicesHero d-flex align-items-center justify-content-center'>
-            <h2 class='servicesHeader internalHeader'>What We Deliver</h2>
+            <h2 class='slogan internalHeader'>What We Deliver</h2>
         </div>
 
         <div class='container mainParagraph'>
@@ -13,11 +13,11 @@
 
         <div class='container m-auto'>
             <div class='row'>
-                <div class='col-md-7 col-lg-6 d-flex flex-column'>
+                <div class='col-12 d-flex flex-column'>
                     <div class='d-inline-block stackedDiv fedsightBlueBackground'>
                         <div class='stackedBackground'><font-awesome-icon :icon="['fas', 'users']" /></div>
-                        <div class='stackedForeground'>
-                            <h3><font-awesome-icon :icon="['fas', 'users']" /> Management Consulting</h3>
+                        <div class='stackedForeground ml-auto' style='width: 60%;'>
+                            <h3 class="stackedIcon"><font-awesome-icon :icon="['fas', 'users']" /> Management Consulting</h3>
                             <p></p>
                             <ul class='d-flex'>
                                 <li class='listItem order1'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Strategic Planning</li>
@@ -29,13 +29,13 @@
                         </div>
                     </div>
                     <div class='d-inline-block stackedDiv'>
-                        <div class='stackedBackground' style='color: #333;'><font-awesome-icon :icon="['fas', 'chart-pie']" /></div>
-                        <div class='stackedForeground fedsightBlue'  style='color: #333;'>
-                            <h3><font-awesome-icon :icon="['fas', 'chart-pie']" /> Data Analytics</h3>
+                        <div class='stackedBackground d-flex ml-auto justify-content-end' style='color: #333;'><font-awesome-icon :icon="['fas', 'chart-pie']" /></div>
+                        <div class='stackedForeground fedsightBlue mr-auto'  style='color: #333; width: 60%;'>
+                            <h3 class="stackedIcon"><font-awesome-icon :icon="['fas', 'chart-pie']" /> Data Analytics</h3>
                             <p></p>
                             <ul class='d-flex'>
                                 <li class='listItem order1'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Digital Strategy</li>
-                                <li class='listItem order3'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Cost Analyses/Optimization</li>
+                                <li class='listItem order3'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Cost Analyses &AMP; Optimization</li>
                                 <li class='listItem order2'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Performance Assessments</li>
                                 <li class='listItem order4'><span class='checkAlt fedsightGreenBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>Data Visualization</li>
                             </ul>
@@ -43,8 +43,8 @@
                     </div>
                     <div class='d-inline-block stackedDiv fedsightBlueBackground'>
                         <div class='stackedBackground'><font-awesome-icon :icon="['fas', 'cloud']" /></div>
-                        <div class='stackedForeground'>
-                            <h3><font-awesome-icon :icon="['fas', 'cloud']" /> IT Solutions</h3>
+                        <div class='stackedForeground ml-auto' style='width: 60%;'>
+                            <h3 class="stackedIcon"><font-awesome-icon :icon="['fas', 'cloud']" /> IT Solutions</h3>
                             <p></p>
                             <ul class='d-flex'>
                                 <li class='listItem order1'><span class='check fedsightYellowBackground'><font-awesome-icon :icon="['fas', 'check']" /></span>System Development</li>
@@ -57,7 +57,24 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-md-5 col-lg-6 stackedDivRight'></div>
+            </div>
+        </div>
+
+        <div class='container text-align-left mt-5 p-0'>
+            <h2 class='fedsightGreen text-align-left'>Desire to do Work Differently </h2>
+            <p>We developed Fedsight with a desire to do work differently by thinking holistically and innovatively. Our team brings experience from a multitude of federal agencies to deliver change to your organization.</p>
+
+            <div class='d-flex align-items-left flex-column justify-content-center mr-auto ml-auto mt-5'>
+                <h3 class='fedsightGreen'>How Do We Do It?</h3>
+                <i class='approachIcon'><font-awesome-icon :icon="['fas', 'eye']" /></i>
+                <h3>Perspective</h3>
+                <p class='approachText'>We understand the solutions underpinning your path forward.</p>
+                <i class='approachIcon'><font-awesome-icon :icon="['fas', 'rocket']" /></i>
+                <h3>Accountability</h3>
+                <p class='approachText'>Our mission is to serve you first. We raise the bar on operational integrity.</p>
+                <i class='approachIcon'><font-awesome-icon :icon="['fas', 'chart-bar']" /></i>
+                <h3>Tangible Results</h3>
+                <p>We take pride in the measured progress you can identify and trace back to our support.</p>
             </div>
         </div>
 
@@ -292,13 +309,9 @@ import flipper from '../mixins/flipper'
 .servicesHero{
     height: 30rem;
     background-image: url(../assets/bigstock-Washington-Dc-By-Night-4142125.jpg);
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.servicesHeader{
-    color: #fff;
-    font-size: 6rem;
 }
 .mainParagraph{
     padding: 8rem 1.5rem;
@@ -307,11 +320,8 @@ import flipper from '../mixins/flipper'
     height: 30rem;
     position: relative;
 }
-.stackedDivRight{
-    background-image: url(../assets/bigstock-Five-Businesspeople-At-Boardro-4132768.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fa-chart-pie {
+    margin-left: auto;
 }
 .stackedBackground{
     background-color: transparent;
@@ -329,10 +339,15 @@ import flipper from '../mixins/flipper'
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
+    padding: 3rem;
 }
 .stackedBackground > .svg-inline--fa {
     height: 100%;
     width: auto;
+}
+.stackedIcon,
+.stackedIcon > svg{
+    font-size: 2.2rem !important;
 }
 .stackedForeground{
     background-color: transparent;
@@ -345,9 +360,9 @@ import flipper from '../mixins/flipper'
     right: 0;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
     justify-content: center;
     align-items: flex-start;
+    padding: 3rem;
 }
 .stackedForeground > ul{
     margin: 0rem;
@@ -516,7 +531,7 @@ import flipper from '../mixins/flipper'
     font-size: 1.6rem;
     text-align: left;
   }
-
+   
 
 
 
@@ -525,6 +540,75 @@ import flipper from '../mixins/flipper'
   @media only screen and (max-width: 1000px) {
     .conditBreak{
         display: none;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) { 
+    .slogan {
+      font-size: 3.5rem;
+    }
+    .servicesHero{
+      background-image: url(../assets/services-hero-small.jpg);
+    }
+    .listItem {
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 576px) { 
+    .servicesHero{
+      background-image: url(../assets/services-hero-small.jpg);
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .slogan{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .servicesHero{
+      justify-content: center !important;
+      background-position: left bottom;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .servicesHero{
+      background-image: url(../assets/services-hero-medium.jpg);
+    }
+  }
+
+  @media (max-width: 992px){
+    .stackedForeground{
+        width: 100% !important;
+        max-width: 60rem;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .fa-chart-pie,
+    .fa-users,
+    .fa-cloud{
+        margin: auto;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .servicesHero{
+      background-image: url(../assets/services-hero-medium.jpg);
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .servicesHero{
+      background-image: url(../assets/services-hero-large.jpg);
+    }
+    .slogan {
+      font-size: 9rem;
     }
   }
 </style>

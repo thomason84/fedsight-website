@@ -25,7 +25,7 @@
               <div class='col-md-6 aboutSquare fedsightBlueBackground d-flex align-content-center order-4 order-md-3'>
                 <div class='contentContainer text-align-left'>
                   <h3 class='fedsightYellow'>Team</h3>
-                  <p class='aboutText whiteText'>Fedisght has a team of exceptional professionals who are committed to enhancing your operational effectiveness. We recruit, develop, and retain the best talent by fostering continuous growth and learning. By solving your problems today, we adaptively plan for the challenges ahead.</p>
+                  <p class='aboutText whiteText'>Fedsight has a team of exceptional professionals who are committed to enhancing your operational effectiveness. We recruit, develop, and retain the best talent by fostering continuous growth and learning. By solving your problems today, we adaptively plan for the challenges ahead.</p>
                 </div>
               </div>
               <div class='col-md-6 backgroundSettings imageDiv2 aboutSquare order-3 order-md-4'>

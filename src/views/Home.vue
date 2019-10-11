@@ -2,7 +2,7 @@
   <div class="home spacer">
     <section class='heroSection d-flex align-items-center justify-content-center container-fluid'>
       <div class='row'>
-        <div class='container'>
+        <div class='container-fluid'>
           <div class='row'>
             <h1 class='slogan col-md-12 ml-auto text-align-left'>Imagine What’s Possible</h1>
           </div>
@@ -187,7 +187,7 @@ export default {
   .slogan{
     font-weight:normal;
     font-style:normal;
-    font-size: 4.5rem;
+    font-size: 6rem;
     max-width: 100%;
     color: white;
   }
@@ -373,23 +373,12 @@ export default {
     text-align: left;
   }
   /****************  Media Queries *****************/
-  @media only screen and (max-width: 60rem) {
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) { 
     .slogan {
       font-size: 3.5rem;
     }
-    .mainCTAText{
-      font-size: 1.8rem;
-    }
-  }
-  @media only screen and (min-width: 150rem) {
-  .slogan {
-      font-size: 9rem;
-    }
-  }
-
-
-  /* Small devices (landscape phones, 576px and up) */
-  @media (max-width: 576px) { 
     .heroSection{
       background-image: url(../assets/home-hero-small.jpg);
       max-height: 38rem;
@@ -408,8 +397,7 @@ export default {
   }
 
   @media (max-width: 768px) { 
-    .slogan,
-    .mainCTAText{
+    .slogan{
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -425,9 +413,6 @@ export default {
       background-image: url(../assets/home-hero-medium.jpg);
       max-height: 50rem;
       min-height: 50rem !important;
-    }
-    .mainCTAText{
-      padding-right: 3rem !important;
     }
   }
 
@@ -446,6 +431,9 @@ export default {
       background-image: url(../assets/home-hero-large.jpg);
       max-height: 60rem;
       min-height: 60rem !important;
+    }
+    .slogan {
+      font-size: 9rem;
     }
   }
 </style>
