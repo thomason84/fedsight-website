@@ -111,7 +111,7 @@ export default {
     font-size: 2.5rem;
 }
 .logo{
-    max-height: 90%;
+    max-height: 8rem;
     width: auto;
     max-width: 90%;
     margin: auto;

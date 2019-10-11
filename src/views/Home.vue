@@ -55,7 +55,7 @@
                     <div class='contractLink' @click='openProfessional()'>
                       <h3 class='cardheader contractLinkText fedsightBlue'>GSA Professional Services Schedule: 47QRAA19D005V</h3>
                     </div>                    
-                    <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">Learn More</button></router-link>
                   </div>
                 </div>
               </div>	 
@@ -97,7 +97,8 @@
                   <div class="inner text-center"> 
                     <h3 class='cardheader fedsightBlue'>Improved efficiency through automation</h3>
                     <p class=''>Tell me something about this</p>
-                    <button type="button" class="btn btn-primary cardButtons">Learn More</button>
+                    
+                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">Learn More</button></router-link>
                   </div>
                 </div>
               </div>	 
