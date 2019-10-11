@@ -88,3 +88,10 @@ img.img-fluid.w-100.d-block {
 .internalHeader{
   font-size: 6rem !important;
 }
+
+
+
+@media (max-width: 768px){
+  .container {
+  max-width: 100% !important;
+}

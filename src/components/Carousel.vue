@@ -117,6 +117,7 @@
 .carouselHeader{
   padding: 2rem 0rem;
   cursor: pointer;
+  font-size: 2.5rem;
 }
 .carousel-item{
     height: 100%;
@@ -155,4 +156,17 @@
   width: 100%;
 }
 
+
+
+@media (max-width: 768px) { 
+  .carouselHeader{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) { 
+  .carouselHeader{
+    font-size: 1.8rem;
+  }
+}
 </style>

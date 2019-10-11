@@ -7,7 +7,7 @@
         <section class='clientList fedsightBlueBackground'>
             <div class='container-fluid'>
                 <div class='row'>
-                    <h2 class='fedsightYellow col-12 clientHeader'>Our Clients Include</h2>
+                    <!-- <h2 class='fedsightYellow col-12 clientHeader'>Our Clients Include</h2> -->
                     <div class='col-md-4 logoDiv'>
                         <img class='logo' src="../assets/gsa.png" alt="logo for GSA">
                     </div>

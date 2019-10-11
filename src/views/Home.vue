@@ -39,7 +39,7 @@
           <div class="col-md-4 d-inline-block cardContainer">
             <div class="flip">
               <div class="card"> 
-                <div class="face front"> 
+                <div class="face front fedsightBlueBackground"> 
                   <div class="inner card1Inner d-flex justify-content-center align-items-center">   
                     <font-awesome-icon :icon="['fas', 'file-contract']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
@@ -47,12 +47,14 @@
                     </div>
                   </div>
                 </div> 
-                <div class="face back"> 
+                <div class="face back d-flex align-items-center"> 
                   <div class="inner text-center">
-                    <h3 class='cardheader fedsightBlue'>GSA INFORMATION TECHNOLOGY SCHEDULE 70</h3>
-                    <p class='cardText'>Contract #: 47QTCA19D007S</p>
-                    <h3 class='cardheader fedsightBlue' style='margin-top: 3rem;'>GSA Professional Services Schedule</h3>
-                    <p class='cardText'>Contract #: 47QRAA19D005V</p>
+                    <div class='contractLink' @click='openInfo()' style='margin-top: 0rem;'>
+                      <h3 class='cardheader contractLinkText fedsightBlue'>GSA INFORMATION TECHNOLOGY SCHEDULE 70: 47QTCA19D007S</h3>
+                    </div>
+                    <div class='contractLink' @click='openProfessional()'>
+                      <h3 class='cardheader contractLinkText fedsightBlue'>GSA Professional Services Schedule: 47QRAA19D005V</h3>
+                    </div>                    
                     <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                   </div>
                 </div>
@@ -63,7 +65,7 @@
           <div class="col-md-4 d-inline-block cardContainer">
             <div class="flip">
               <div class="card"> 
-                <div class="face front"> 
+                <div class="face front fedsightBlueBackground"> 
                   <div class="inner card2Inner d-flex justify-content-center align-items-center"> 
                     <font-awesome-icon :icon="['fas', 'atom']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
@@ -71,10 +73,9 @@
                     </div>
                   </div>
                 </div> 
-                <div class="face back"> 
+                <div class="face back d-flex align-items-center"> 
                   <div class="inner text-center"> 
                     <h3 class='cardheader fedsightBlue'>Download a PDF copy of our capabilities summary</h3>
-                    <p class='cardText'>Our management consulting and data analytics solutions simplify processes and drive organizational efficiency.</p>
                     <button @click="downloadFile" class="btn btn-primary cardButtons"><font-awesome-icon :icon="['fas', 'download']" /> Download</button>
                   </div>
                 </div>
@@ -84,7 +85,7 @@
           <div class="col-md-4 d-inline-block cardContainer">
             <div class="flip">
               <div class="card"> 
-                <div class="face front"> 
+                <div class="face front fedsightBlueBackground"> 
                   <div class="inner card3Inner d-flex justify-content-center align-items-center">   
                     <font-awesome-icon :icon="['fas', 'users']" />
                     <div class='cardTextArea d-flex align-items-center justify-content-center'>
@@ -92,10 +93,10 @@
                     </div>
                   </div>
                 </div> 
-                <div class="face back"> 
+                <div class="face back d-flex align-items-center"> 
                   <div class="inner text-center"> 
                     <h3 class='cardheader fedsightBlue'>Improved efficiency through automation</h3>
-                    <p class='cardText'>Tell me something about this</p>
+                    <p class=''>Tell me something about this</p>
                     <button type="button" class="btn btn-primary cardButtons">Learn More</button>
                   </div>
                 </div>
@@ -149,6 +150,14 @@ export default {
         this.forceFileDownload(response)  
       })
       .catch(() => console.log('error occured'))
+    },
+
+    openInfo(){
+      window.open("https://www.gsaadvantage.gov/ref_text/47QTCA19D007S/0UC2T6.3PJUJG_47QTCA19D007S_FEDSIGHTIT70SUMMARY2019V5.PDF", "_blank");
+    },
+
+    openProfessional(){
+      window.open("https://www.gsaadvantage.gov/ref_text/47QRAA19D005V/0UAGGC.3PGO0O_47QRAA19D005V_FEDSIGHTPSSSUMMARY.PDF", "_blank");
     }
   },
     mixins: [flipper, closeMenu]
@@ -158,6 +167,9 @@ export default {
 </script>
 
 <style scoped>
+  svg.svg-inline--fa {
+    color: white;
+  }
   .home{
     height: 100vh;
   }
@@ -203,6 +215,18 @@ export default {
   .sectionImg{
     width: 100%;
     height: 100%;
+  }
+  .contractLink{
+    margin: 2rem 0rem;
+    text-align: left;
+    cursor: pointer;
+  }
+  .contractLinkText{
+    margin: 0rem !important;
+    padding: 0rem !important;
+  }
+  .contractLinkText:hover{
+    color: #579C5F !important;
   }
 
   /**************  Flipper ****************/
@@ -267,7 +291,6 @@ export default {
     border: 2px solid #000;
   }
   .flip .card .back {
-    padding-top: 10%;
     -webkit-transform: rotatey(-180deg);
             transform: rotatey(-180deg);
     position: absolute;
