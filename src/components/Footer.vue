@@ -1,18 +1,19 @@
    
 
 <template>
-    <div id='footer' class='container-fluid'>
+    <div id='footer' class='container-fluid fedsightBlueBackground'>
         <div class='row'>
-            <div class='col-6 col-md-3'>
-                <ul class='footerList m-auto d-inline-block'>
-                    <h3 class='fedsightGreen'>Contact Us</h3>
-                    <li>
+            <div class='col-6 text-align-left pl-3'>
+                <ul class='footerList  d-inline-block'>
+                    <h3 class='fedsightYellow'>Contact Us</h3>
+                    <li class='whiteText'>
                         215 Depot Court SE <br>
                         2nd Floor #249 <br>
                         Leesburg, VA 20175
                     </li>
                     <!-- <li><strong>Phone:</strong> </li> -->
-                    <li><strong>Email:</strong>info@fedsight.com </li>
+                    <li class='whiteText emailLink' @click='emailUs()' style='padding: 1rem 0rem;'><strong>Email:</strong> info@fedsight.com </li>
+                    <li class='whiteText'><a href='https://www.linkedin.com/company/fedsight-llc' target='_blank' rel="noreferrer" aria-label='Link to Fedsights LinkedIn profile' class='linkedInIcon whiteText' style='padding: 1rem 0rem;'>LinkedIn <font-awesome-icon :icon="['fab', 'linkedin-in']" /></a></li>
                 </ul>
             </div>
             <!-- <div class='col-6 col-md-3'>
@@ -34,13 +35,9 @@
                 </ul>
             </div> -->
             
-            <div class='col-12 col-md-6'>
-                <img class='certImg' src="@/assets/hubzone5-3-1080x675.jpg" alt="hubzone certification logo">
-            </div>
-
-            <div class='col-12 fedsightBlueBackground footerBar d-flex justify-content-between align-items-center'>
-                <p><font-awesome-icon :icon="['fas', 'copyright']" /> Fedsight Consulting</p>
-                <a href='https://www.linkedin.com/company/fedsight-llc' target='_blank' rel="noreferrer" aria-label='Link to Fedsights LinkedIn profile' class='linkedInIcon'><font-awesome-icon :icon="['fab', 'linkedin-in']" /></a>
+            <div class='col-6 pr-3 d-flex justify-content-end align-items-center flex-column'>
+                <img class='certImg d-inline-block ml-0 mr-0' src="@/assets/hubzone5-3-1080x675.jpg" alt="hubzone certification logo">
+                <p class='whiteText' style='padding-top: 0.5rem;'><font-awesome-icon :icon="['fas', 'copyright']" />Fedsight Consulting</p>
             </div>
         </div>
     </div>
@@ -48,14 +45,19 @@
 
 <script>
   export default {
-    name: 'Footer'
+    name: 'Footer',
+    methods: {
+      emailUs(){
+          window.location.href = "mailto:info@fedsight.com?subject=I%20would%20like%20to%20learn%20more%20about%20Fedsight&body=Hello,%0D%0A%0D%0APlease%20contact%20me%20to%20discuss%20how%20Fedsight%20can%20assist%20my%20company.%0D%0A%0D%0A";
+      }
+    }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #footer{
-    padding: 3rem 1.5rem 0rem;
+    padding: 3rem 1.5rem;
     margin-top: 8rem;
 }
 .footerBar{
@@ -83,7 +85,6 @@
 }
 .footerList > li > a{
     text-decoration: none;
-    color: #333;
 }
 .footerList > li > a:hover{
     color: #579C5F;
@@ -94,5 +95,11 @@
 }
 .linkedInIcon:hover{
     color: #ddd;
+}
+.emailLink{
+    cursor: pointer;
+}
+.emailLink:hover{
+    color: #F7D72A;
 }
 </style>

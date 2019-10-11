@@ -43,7 +43,6 @@
           <li>Forecasting</li>
           <li>Early-stage product development planning</li>
         </ul>
-        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
         img-src="@/assets/strategy-medium.jpg"
       ></b-carousel-slide>
@@ -60,7 +59,6 @@
           <li>Work Force Development</li>
           <li>SharePoint Development</li>
         </ul>
-        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
         img-src="@/assets/development-medium.jpg"
       >
@@ -80,7 +78,6 @@
           <li>Performance Assessments</li>
           <li>Cost Analyses/Optimization</li>
         </ul>
-        <div class='flipCardButton fedsightYellowBackground'>Learn More</div>
         "
         img-src="@/assets/operations-medium.jpg"
       ></b-carousel-slide>

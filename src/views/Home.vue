@@ -4,7 +4,7 @@
       <div class='row'>
         <div class='container'>
           <div class='row'>
-            <h1 class='slogan col-md-12 ml-auto text-align-left'>Imagine what’s possible</h1>
+            <h1 class='slogan col-md-12 ml-auto text-align-left'>Imagine What’s Possible</h1>
           </div>
         </div>
       </div>
