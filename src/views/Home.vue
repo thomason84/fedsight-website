@@ -95,7 +95,7 @@
                 </div> 
                 <div class="face back d-flex align-items-center"> 
                   <div class="inner text-center"> 
-                    <h3 class='cardheader fedsightGreen'>Who we serve</h3>
+                    <h2 class='cardheader fedsightGreen'>Who we serve</h2>
                     <p class=''>Check out a short list of some of our largest clients.</p>
                     
                     <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">View List</button></router-link>

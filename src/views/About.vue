@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
       <section class='container-fluid aboutUsHero d-flex align-items-center justify-content-center'>
-            <p class='aboutUsHeader internalHeader'>Who We Are</p>
+            <p class='slogan internalHeader'>Who We Are</p>
         </section>
 
         <section class='mainParagraph'>
@@ -106,4 +106,64 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) { 
+    .slogan {
+      font-size: 3.5rem;
+    }
+    .aboutUsHero{
+      background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
+    }
+  }
+
+  @media (min-width: 576px) { 
+    .aboutUsHero{
+      background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .slogan{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .aboutUsHero{
+      justify-content: center !important;
+      background-position: left bottom;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .aboutUsHero{
+      background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
+    }
+  }
+
+  @media (max-width: 992px){
+    .container{
+        padding: 1.5rem !important;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .aboutUsHero{
+      background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .aboutUsHero{
+      background-image: url(../assets/bigstock-Washington-DC-at-Twilight-7819467.jpg);
+    }
+    .slogan {
+      font-size: 9rem;
+    }
+  }
 </style>

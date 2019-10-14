@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
         <section class='container-fluid serveHero d-flex align-items-center justify-content-center'>
-            <p class='serveHeader internalHeader'>Our Customers</p>
+            <p class='slogan internalHeader'>Our Customers</p>
         </section>
 
         <section class='clientList fedsightBlueBackground'>
@@ -142,4 +142,62 @@ hr{
         padding-top: 3rem;
     }
 }
+
+/* Small devices (landscape phones, 576px and up) */
+  @media (max-width: 576px) { 
+    .slogan {
+      font-size: 3.5rem;
+    }
+    .serveHero{
+      background-image: url(../assets/bigstock-Us-Capitol-North-Side-Fountain-306150373.jpg);
+    }
+  }
+
+  @media (min-width: 576px) { 
+    .serveHero{
+      background-image: url(../assets/bigstock-Us-Capitol-North-Side-Fountain-306150373.jpg);
+    }
+  }
+
+  @media (max-width: 768px) { 
+    .slogan{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .serveHero{
+      justify-content: center !important;
+      background-position: left bottom;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .serveHero{
+      background-image: url(../assets/bigstock-Us-Capitol-North-Side-Fountain-306150373.jpg);
+    }
+  }
+
+  @media (max-width: 992px){
+    .container{
+        padding: 1.5rem !important;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .serveHero{
+      background-image: url(../assets/bigstock-Us-Capitol-North-Side-Fountain-306150373.jpg);
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .serveHero{
+      background-image: url(../assets/bigstock-Us-Capitol-North-Side-Fountain-306150373.jpg);
+    }
+    .slogan {
+      font-size: 9rem;
+    }
+  }
 </style>

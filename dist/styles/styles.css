@@ -3,9 +3,15 @@ html{
 }
 html body{
   font-family: 'Open Sans', sans-serif; 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #333;
   margin: 0rem;
+  max-width: 200rem;
+  margin: auto;
+}
+#navbar{
+  max-width: 200rem;
+  margin: auto;
 }
 a,
 a:hover,
@@ -16,6 +22,9 @@ a:active{
 }
 .spacer{
   margin-top: 8rem;
+}
+.slogan{
+  color: #fff;
 }
 .fedsightBlue{
   color: #132631 !important;
@@ -36,8 +45,11 @@ a:active{
 .fedsightYellowBackground{
   background-color: #F7D72A !important;
 }
-h1, h2, h3 ,h4 {
+h1, h2, h3 ,h4, .slogan {
   font-family: 'comfortaaregular', sans-serif;
+}
+h2{
+  font-size: 2.5rem !important;
 }
 .text-align-center{
   text-align: center;
@@ -71,14 +83,18 @@ h1, h2, h3 ,h4 {
   cursor: pointer;
 }
 ul.slideList {
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
 }
 img.img-fluid.w-100.d-block {
   min-height: 30rem;
 }
+.internalHeader{
+  font-size: 6rem !important;
+}
 
-@media only screen and (max-width: 500px) {
-  ul.slideList {
-    font-size: 3vw !important;
-  }
+
+
+@media (max-width: 768px){
+  .container {
+  max-width: 100% !important;
 }
