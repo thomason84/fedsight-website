@@ -13,8 +13,8 @@
             <div class='d-flex ml-auto nav-links'>
               <router-link to="/" class='col-xs-3'>Home</router-link>
               <router-link to="/services" class='col-xs-3'>Services</router-link>
-              <router-link to="/about" class='col-xs-3'>About Us</router-link>
-              <router-link to="/whoWeServe" class='col-xs-3'>Clients</router-link>
+              <router-link to="/aboutUs" class='col-xs-3'>About Us</router-link>
+              <router-link to="/clients" class='col-xs-3'>Clients</router-link>
             </div>
           </b-navbar-nav>
         </b-collapse>

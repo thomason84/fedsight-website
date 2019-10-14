@@ -17,12 +17,12 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/aboutUs',
+      name: 'aboutUs',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('./views/About.vue')
+      component: () => import('./views/AboutUs.vue')
     },
     {
       path: '/services',
@@ -30,9 +30,9 @@ export default new Router({
       component: () => import('./views/Services.vue')
     },
     {
-      path: '/whoWeServe',
-      name: 'whoWeServe',
-      component: () => import('./views/WhoWeServe.vue')
+      path: '/clients',
+      name: 'clients',
+      component: () => import('./views/Clients.vue')
     }
   ]
 })

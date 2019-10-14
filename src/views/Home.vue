@@ -55,7 +55,7 @@
                     <div class='contractLink' @click='openProfessional()'>
                       <h3 class='cardheader contractLinkText fedsightBlue'>GSA Professional Services Schedule: 47QRAA19D005V</h3>
                     </div>                    
-                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">Learn More</button></router-link>
+                    <router-link to="/clients" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">Learn More</button></router-link>
                   </div>
                 </div>
               </div>	 
@@ -98,7 +98,7 @@
                     <h2 class='cardheader fedsightGreen'>Who we serve</h2>
                     <p class=''>Check out a short list of some of our largest clients.</p>
                     
-                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">View List</button></router-link>
+                    <router-link to="/clients" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">View List</button></router-link>
                   </div>
                 </div>
               </div>	 
