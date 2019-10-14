@@ -1,7 +1,7 @@
 <template>
   <div class="about spacer">
         <section class='container-fluid serveHero d-flex align-items-center justify-content-center'>
-            <h2 class='serveHeader internalHeader'>Our Customers</h2>
+            <p class='serveHeader internalHeader'>Our Customers</p>
         </section>
 
         <section class='clientList fedsightBlueBackground'>

@@ -4,7 +4,7 @@
       <div class='row'>
         <div class='container-fluid'>
           <div class='row'>
-            <h1 class='slogan col-md-12 ml-auto text-align-left'>Imagine What’s Possible</h1>
+            <p class='slogan col-md-12 ml-auto text-align-left'>Imagine What’s Possible</p>
           </div>
         </div>
       </div>
@@ -13,7 +13,7 @@
     <section class='mainParagraph container'>
       <div class='row' style='height: 100%;'>
         <div class='container d-flex align-content-center justify-content-center flex-wrap'>
-          <h2 class='fedsightGreen'>We Assess Problems and Create Innovative Solutions for Federal Agencies </h2>
+          <h1 class='fedsightGreen'>We Assess Problems and Create Innovative Solutions for Federal Agencies </h1>
           <p>We integrate strategy, development, and analytics to optimize operations and program performance.
           </p>
         </div>
@@ -95,10 +95,10 @@
                 </div> 
                 <div class="face back d-flex align-items-center"> 
                   <div class="inner text-center"> 
-                    <h3 class='cardheader fedsightBlue'>Improved efficiency through automation</h3>
-                    <p class=''>Tell me something about this</p>
+                    <h3 class='cardheader fedsightGreen'>Who we serve</h3>
+                    <p class=''>Check out a short list of some of our largest clients.</p>
                     
-                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">Learn More</button></router-link>
+                    <router-link to="/WhoWeServe" class='col-xs-3'><button type="button" class="btn btn-primary cardButtons">View List</button></router-link>
                   </div>
                 </div>
               </div>	 

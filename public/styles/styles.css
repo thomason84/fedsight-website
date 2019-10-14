@@ -3,7 +3,7 @@ html{
 }
 html body{
   font-family: 'Open Sans', sans-serif; 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #333;
   margin: 0rem;
   max-width: 200rem;
@@ -45,7 +45,7 @@ a:active{
 .fedsightYellowBackground{
   background-color: #F7D72A !important;
 }
-h1, h2, h3 ,h4 {
+h1, h2, h3 ,h4, .slogan {
   font-family: 'comfortaaregular', sans-serif;
 }
 h2{
@@ -83,7 +83,7 @@ h2{
   cursor: pointer;
 }
 ul.slideList {
-  font-size: 1.6rem !important;
+  font-size: 2rem !important;
 }
 img.img-fluid.w-100.d-block {
   min-height: 30rem;

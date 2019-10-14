@@ -1,12 +1,12 @@
 <template>
   <div class="about spacer">
       <section class='container-fluid aboutUsHero d-flex align-items-center justify-content-center'>
-            <h2 class='aboutUsHeader internalHeader'>Who We Are</h2>
+            <p class='aboutUsHeader internalHeader'>Who We Are</p>
         </section>
 
         <section class='mainParagraph'>
             <div class='container'>
-                <h2 class='fedsightGreen'>Working Through the Tough Problems Calls for Greater Insight</h2>
+                <h1 class='fedsightGreen'>Working Through the Tough Problems Calls for Greater Insight</h1>
                 <p>We are a team of management consultants, solution developers, and functional experts all dedicated to creating lasting value. We work differently by thinking holistically and using our experience and insight gained through commercial and federal projects.</p>
             </div>
         </section>
